@@ -1,0 +1,5190 @@
+EmailMailer#weekly: processed outbound mail in 4.7ms
+EmailMailer#weekly: processed outbound mail in 2.6ms
+EmailMailer#weekly: processed outbound mail in 2.9ms
+  Rendering email_mailer/weekly.html.erb
+  Rendered email_mailer/weekly.html.erb (1.4ms)
+  Rendering email_mailer/weekly.text.erb
+  Rendered email_mailer/weekly.text.erb (0.5ms)
+EmailMailer#weekly: processed outbound mail in 314.8ms
+Sent mail to robson_peacock20@outlook.com (711.4ms)
+Date: Fri, 27 Apr 2018 15:43:27 +0100
+From: from@example.com
+To: robson_peacock20@outlook.com
+Message-ID: <5ae3370f624fe_382a1319970759cb@robson-VirtualBox.mail>
+Subject: Planet Rent email
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5ae3370f5fd25_382a131997075896";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5ae3370f5fd25_382a131997075896
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+EmailMailer#weekly
+
+, find me in
+app/views/my_mailer/mailer.text.erb
+
+----==_mimepart_5ae3370f5fd25_382a131997075896
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- If you delete this tag, the sky will fall on your head -->
+<meta name="viewport" content="width=device-width" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>ZURBemails</title>
+
+<style>
+
+/* -------------------------------------
+        GLOBAL
+------------------------------------- */
+* {
+    margin:0;
+    padding:0;
+}
+* { font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+
+img {
+    max-width: 100%;
+}
+.collapse {
+    margin:0;
+    padding:0;
+}
+body {
+    -webkit-font-smoothing:antialiased;
+    -webkit-text-size-adjust:none;
+    width: 100%!important;
+    height: 100%;
+    background-color: #a1acb9;
+}
+button:hover {
+    background-color: #3393ff;
+}
+
+
+/* -------------------------------------
+        ELEMENTS
+------------------------------------- */
+a { color: #2BA6CB;}
+
+.btn {
+    text-decoration:none;
+    color: #FFF;
+    background-color: #666;
+    padding:10px 16px;
+    font-weight:bold;
+    margin-right:10px;
+    text-align:center;
+    cursor:pointer;
+    display: inline-block;
+}
+
+p.callout {
+    padding:15px;
+    background-color:#ECF8FF;
+    margin-bottom: 15px;
+}
+.callout a {
+    font-weight:bold;
+    color: #2BA6CB;
+}
+
+table.social {
+/*     padding:15px; */
+    background-color: #ebebeb;
+
+}
+.social .soc-btn {
+    padding: 3px 7px;
+    font-size:12px;
+    margin-bottom:10px;
+    text-decoration:none;
+    color: #FFF;font-weight:bold;
+    display:block;
+    text-align:center;
+}
+a.fb { background-color: #3B5998!important; }
+a.tw { background-color: #1daced!important; }
+a.gp { background-color: #DB4A39!important; }
+a.ms { background-color: #000!important; }
+
+.sidebar .soc-btn {
+    display:block;
+    width:100%;
+}
+
+/* -------------------------------------
+        HEADER
+------------------------------------- */
+table.head-wrap { width: 100%;}
+
+.header.container table td.logo { padding: 15px; }
+.header.container table td.label { padding: 15px; padding-left:0px;}
+
+
+/* -------------------------------------
+        BODY
+------------------------------------- */
+table.body-wrap { width: 100%;}
+
+
+/* -------------------------------------
+        FOOTER
+------------------------------------- */
+table.footer-wrap { width: 100%;    clear:both!important;
+}
+.footer-wrap .container td.content  p { border-top: 1px solid rgb(215,215,215); padding-top:15px;}
+.footer-wrap .container td.content p {
+    font-size:10px;
+    font-weight: bold;
+
+}
+
+
+/* -------------------------------------
+        TYPOGRAPHY
+------------------------------------- */
+h1,h2,h3,h4,h5,h6 {
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; line-height: 1.1; margin-bottom:15px; color:#000;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; }
+
+h1 { font-weight:200; font-size: 44px;}
+h2 { font-weight:200; font-size: 37px;}
+h3 { font-weight:500; font-size: 27px;}
+h4 { font-weight:500; font-size: 23px;}
+h5 { font-weight:900; font-size: 17px;}
+h6 { font-weight:900; font-size: 14px; text-transform: uppercase; color:#444;}
+
+.collapse { margin:0!important;}
+
+p, ul {
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size:14px;
+    line-height:1.6;
+}
+p.lead { font-size:17px; }
+p.last { margin-bottom:0px;}
+
+ul li {
+    margin-left:5px;
+    list-style-position: inside;
+}
+
+/* -------------------------------------
+        SIDEBAR
+------------------------------------- */
+ul.sidebar {
+    background:#ebebeb;
+    display:block;
+    list-style-type: none;
+}
+ul.sidebar li { display: block; margin:0;}
+ul.sidebar li a {
+    text-decoration:none;
+    color: #666;
+    padding:10px 16px;
+/*     font-weight:bold; */
+    margin-right:10px;
+/*     text-align:center; */
+    cursor:pointer;
+    border-bottom: 1px solid #777777;
+    border-top: 1px solid #FFFFFF;
+    display:block;
+    margin:0;
+}
+ul.sidebar li a.last { border-bottom-width:0px;}
+ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.sidebar li a h5,ul.sidebar li a h6,ul.sidebar li a p { margin-bottom:0!important;}
+
+
+
+/* ---------------------------------------------------
+        RESPONSIVENESS
+        Nuke it from orbit. It's the only way to be sure.
+------------------------------------------------------ */
+
+/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+.container {
+    display:block!important;
+    max-width:600px!important;
+    margin:0 auto!important; /* makes it centered */
+    clear:both!important;
+}
+
+/* This should also be a block element, so that it will fill 100% of the .container */
+.content {
+    padding:15px;
+    max-width:800px;
+    margin:0 auto;
+    display:block;
+}
+
+/* Let's make sure tables in the content area are 100% wide */
+.content table { width: 100%; }
+
+
+/* Odds and ends */
+.column {
+    width: 300px;
+    float:left;
+}
+.column tr td { padding: 15px; }
+.column-wrap {
+    padding:0!important;
+    margin:0 auto;
+    max-width:600px!important;
+}
+.column table { width:100%;}
+.social .column {
+    width: 280px;
+    min-width: 279px;
+    float:left;
+}
+
+.col-sm-4 {
+    position:relative;
+    min-height:1px;
+}
+
+.col-sm-4 {
+    -ms-flex:0 0 33.333333%;
+    flex:0 0 33.333333%;
+    max-width:33.333333%;
+}
+
+.col-sm-4 {float:left}
+
+.col-sm-4{width:33.33333333%}
+
+.center-column {
+    height: 468px;
+}
+
+.right-column {
+    float: right;
+}
+
+.row {
+    margin-right:-15px;
+    margin-left:-15px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: 3px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button-1 {border-radius: 50%;}
+
+.button-2 {border-radius: 25px;}
+
+.row:after {display:table;content:" "}
+
+.row:before{display:table;content:" "}
+
+.row:after{clear:both}
+
+/* Be sure to place a .clear element after each set of columns, just to be safe */
+.clear { display: block; clear: both; }
+
+
+/* -------------------------------------------
+        PHONE
+        For clients that support media queries.
+        Nothing fancy.
+-------------------------------------------- */
+@media only screen and (max-width: 600px) {
+
+    a[class="btn"] { display:block!important; margin-bottom:10px!important; background-image:none!important; margin-right:0!important;}
+
+    div[class="column"] { width: auto!important; float:none!important;}
+
+    table.social div[class="column"] {
+        width:auto!important;
+    }
+
+    .mobile-buttons {
+        margin: auto;
+      position: relative;
+      text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+
+    }
+
+}
+
+@media only screen and (min-width: 601px) {
+
+        .desktop-button1 {
+            float: left;
+        }
+
+}
+
+</style>
+
+</head>
+
+<body >
+
+            <div class="content" style="background-color: white;">
+            <table>
+                <tr>
+                    <td>
+
+                        <img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/Header.png">
+                        <p class="lead"></p>
+
+
+
+
+<style>
+    /* 3 equal-width columns Layout Pattern CSS */
+    @media only screen and (max-width: 599px) {
+        td[class="pattern"] table { width: 100%; }
+        td[class="pattern"] .col{
+            width: 33%;
+        }
+    }
+    @media only screen and (max-width: 500px) {
+        td[class="pattern"] .col{
+            width: 100%;
+            display: block;
+        }
+        td[class="pattern"] .col-left,
+        td[class="pattern"] .col-mid {
+            margin-bottom: 20px;
+        }
+    }
+</style>
+
+<div style="padding-right: 10px;" class="desktop-button1 mobile-buttons">
+
+<a href="https://www.planetrent.co.uk/" target="_blank"><button class="button-1 button" ><strong>SIGN UP<br> FOR <br> FREE </strong></button></a>
+
+</div>
+
+<p style="padding-bottom: 5px; font-size: 20px;"> Still managing your properties using spreadsheets or manually? No way to track offers and tenancies in real time? Then you need Planet Rent, the end to end application that lets you manage your all properties in one place.</p>
+
+<table cellpadding="0" cellspacing="0">
+    <tr>
+        <td class="pattern" width="600" align="center">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="col col-left" width="200" align="left" valign="top">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="left">
+                                    <table cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="left">
+
+                                                                                            <div style="padding-top: 10px; padding-bottom: 10px;">
+                                                                                            <ul>
+                                                                                                <p style="font-size: 20px;"><strong>PlanetRent allows you to:</strong></p>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px;">See all your properties in one place </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Manage the lettings process from offer through to move in </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Automate the viewing process </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Agree to an offer and create a new tenancy agreement in minutes</li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Electronically sign documents on your phone </li>
+                                                                                                <li style="font-size: 20px">Collect rents by direct debit </li>
+                                                                                            </ul>
+                                                                                            </div>
+
+                                                                                            <p style="font-size: 20px;">Planet Rent is built by Ringley, the multi-award winning property Management Company, with over twenty years of industry expertise.</p>
+                                            </td>
+                                        </tr>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="col col-mid" width="200" align="center" valign="top">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="left">
+                                    <table cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="center">
+                                                                                                <div style="height: 80%; width: 80%;">
+                                                <img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/New+Tracker.jpg">
+                                                                                            </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+                        <div class="col-sm-12" style="padding-top: 10px;">
+
+                    <h1 align="center"><strong>Start saving time and money NOW by clicking below!</strong></h1>
+                            <div align="center" style="padding-bottom: 15px;">
+
+                      <a href="https://www.planetrent.co.uk/" target="_blank"><button type="button" class="button button-2"><strong>REGISTER TODAY <br> FOR FREE</strong></button></a>
+
+                            </div>
+
+                    <div style="padding-bottom: 10px;" align="center">
+
+                    <a href="https://en-gb.facebook.com/TheRingleyGroup/"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/facebook-logo-button.png" style="padding-right: 30px;"></a>
+                    <a href="https://uk.linkedin.com/company/the-ringley-group?trk=ppro_cprof"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/linkedin.png" style="padding-right: 30px;"></a>
+                    <a href="https://twitter.com/TheRingleyGroup"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/twitter-logo-button.png"></a>
+
+                  </div>
+
+                  </div>
+
+</body>
+</html>
+
+----==_mimepart_5ae3370f5fd25_382a131997075896--
+
+  Rendering email_mailer/weekly.html.erb
+  Rendered email_mailer/weekly.html.erb (0.1ms)
+  Rendering email_mailer/weekly.text.erb
+  Rendered email_mailer/weekly.text.erb (0.0ms)
+EmailMailer#weekly: processed outbound mail in 20.5ms
+Sent mail to robson_peacock20@outlook.com (323.9ms)
+Date: Fri, 27 Apr 2018 15:53:51 +0100
+From: from@example.com
+To: robson_peacock20@outlook.com
+Message-ID: <5ae3397f3526e_382a13199707619e@robson-VirtualBox.mail>
+Subject: Planet Rent email
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5ae3397f313f5_382a131997076038";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5ae3397f313f5_382a131997076038
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+EmailMailer#weekly
+
+, find me in
+app/views/my_mailer/mailer.text.erb
+
+----==_mimepart_5ae3397f313f5_382a131997076038
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- If you delete this tag, the sky will fall on your head -->
+<meta name="viewport" content="width=device-width" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>ZURBemails</title>
+
+<style>
+
+/* -------------------------------------
+        GLOBAL
+------------------------------------- */
+* {
+    margin:0;
+    padding:0;
+}
+* { font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+
+img {
+    max-width: 100%;
+}
+.collapse {
+    margin:0;
+    padding:0;
+}
+body {
+    -webkit-font-smoothing:antialiased;
+    -webkit-text-size-adjust:none;
+    width: 100%!important;
+    height: 100%;
+    background-color: #a1acb9;
+}
+button:hover {
+    background-color: #3393ff;
+}
+
+
+/* -------------------------------------
+        ELEMENTS
+------------------------------------- */
+a { color: #2BA6CB;}
+
+.btn {
+    text-decoration:none;
+    color: #FFF;
+    background-color: #666;
+    padding:10px 16px;
+    font-weight:bold;
+    margin-right:10px;
+    text-align:center;
+    cursor:pointer;
+    display: inline-block;
+}
+
+p.callout {
+    padding:15px;
+    background-color:#ECF8FF;
+    margin-bottom: 15px;
+}
+.callout a {
+    font-weight:bold;
+    color: #2BA6CB;
+}
+
+table.social {
+/*     padding:15px; */
+    background-color: #ebebeb;
+
+}
+.social .soc-btn {
+    padding: 3px 7px;
+    font-size:12px;
+    margin-bottom:10px;
+    text-decoration:none;
+    color: #FFF;font-weight:bold;
+    display:block;
+    text-align:center;
+}
+a.fb { background-color: #3B5998!important; }
+a.tw { background-color: #1daced!important; }
+a.gp { background-color: #DB4A39!important; }
+a.ms { background-color: #000!important; }
+
+.sidebar .soc-btn {
+    display:block;
+    width:100%;
+}
+
+/* -------------------------------------
+        HEADER
+------------------------------------- */
+table.head-wrap { width: 100%;}
+
+.header.container table td.logo { padding: 15px; }
+.header.container table td.label { padding: 15px; padding-left:0px;}
+
+
+/* -------------------------------------
+        BODY
+------------------------------------- */
+table.body-wrap { width: 100%;}
+
+
+/* -------------------------------------
+        FOOTER
+------------------------------------- */
+table.footer-wrap { width: 100%;    clear:both!important;
+}
+.footer-wrap .container td.content  p { border-top: 1px solid rgb(215,215,215); padding-top:15px;}
+.footer-wrap .container td.content p {
+    font-size:10px;
+    font-weight: bold;
+
+}
+
+
+/* -------------------------------------
+        TYPOGRAPHY
+------------------------------------- */
+h1,h2,h3,h4,h5,h6 {
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; line-height: 1.1; margin-bottom:15px; color:#000;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; }
+
+h1 { font-weight:200; font-size: 44px;}
+h2 { font-weight:200; font-size: 37px;}
+h3 { font-weight:500; font-size: 27px;}
+h4 { font-weight:500; font-size: 23px;}
+h5 { font-weight:900; font-size: 17px;}
+h6 { font-weight:900; font-size: 14px; text-transform: uppercase; color:#444;}
+
+.collapse { margin:0!important;}
+
+p, ul {
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size:14px;
+    line-height:1.6;
+}
+p.lead { font-size:17px; }
+p.last { margin-bottom:0px;}
+
+ul li {
+    margin-left:5px;
+    list-style-position: inside;
+}
+
+/* -------------------------------------
+        SIDEBAR
+------------------------------------- */
+ul.sidebar {
+    background:#ebebeb;
+    display:block;
+    list-style-type: none;
+}
+ul.sidebar li { display: block; margin:0;}
+ul.sidebar li a {
+    text-decoration:none;
+    color: #666;
+    padding:10px 16px;
+/*     font-weight:bold; */
+    margin-right:10px;
+/*     text-align:center; */
+    cursor:pointer;
+    border-bottom: 1px solid #777777;
+    border-top: 1px solid #FFFFFF;
+    display:block;
+    margin:0;
+}
+ul.sidebar li a.last { border-bottom-width:0px;}
+ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.sidebar li a h5,ul.sidebar li a h6,ul.sidebar li a p { margin-bottom:0!important;}
+
+
+
+/* ---------------------------------------------------
+        RESPONSIVENESS
+        Nuke it from orbit. It's the only way to be sure.
+------------------------------------------------------ */
+
+/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+.container {
+    display:block!important;
+    max-width:600px!important;
+    margin:0 auto!important; /* makes it centered */
+    clear:both!important;
+}
+
+/* This should also be a block element, so that it will fill 100% of the .container */
+.content {
+    padding:15px;
+    max-width:800px;
+    margin:0 auto;
+    display:block;
+}
+
+/* Let's make sure tables in the content area are 100% wide */
+.content table { width: 100%; }
+
+
+/* Odds and ends */
+.column {
+    width: 300px;
+    float:left;
+}
+.column tr td { padding: 15px; }
+.column-wrap {
+    padding:0!important;
+    margin:0 auto;
+    max-width:600px!important;
+}
+.column table { width:100%;}
+.social .column {
+    width: 280px;
+    min-width: 279px;
+    float:left;
+}
+
+.col-sm-4 {
+    position:relative;
+    min-height:1px;
+}
+
+.col-sm-4 {
+    -ms-flex:0 0 33.333333%;
+    flex:0 0 33.333333%;
+    max-width:33.333333%;
+}
+
+.col-sm-4 {float:left}
+
+.col-sm-4{width:33.33333333%}
+
+.center-column {
+    height: 468px;
+}
+
+.right-column {
+    float: right;
+}
+
+.row {
+    margin-right:-15px;
+    margin-left:-15px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: 3px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button-1 {border-radius: 50%;}
+
+.button-2 {border-radius: 25px;}
+
+.row:after {display:table;content:" "}
+
+.row:before{display:table;content:" "}
+
+.row:after{clear:both}
+
+/* Be sure to place a .clear element after each set of columns, just to be safe */
+.clear { display: block; clear: both; }
+
+
+/* -------------------------------------------
+        PHONE
+        For clients that support media queries.
+        Nothing fancy.
+-------------------------------------------- */
+@media only screen and (max-width: 600px) {
+
+    a[class="btn"] { display:block!important; margin-bottom:10px!important; background-image:none!important; margin-right:0!important;}
+
+    div[class="column"] { width: auto!important; float:none!important;}
+
+    table.social div[class="column"] {
+        width:auto!important;
+    }
+
+    .mobile-buttons {
+        margin: auto;
+      position: relative;
+      text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+
+    }
+
+}
+
+@media only screen and (min-width: 601px) {
+
+        .desktop-button1 {
+            float: left;
+        }
+
+}
+
+</style>
+
+</head>
+
+<body >
+
+            <div class="content" style="background-color: white;">
+            <table>
+                <tr>
+                    <td>
+
+                        <img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/Header.png">
+                        <p class="lead"></p>
+
+
+
+
+<style>
+    /* 3 equal-width columns Layout Pattern CSS */
+    @media only screen and (max-width: 599px) {
+        td[class="pattern"] table { width: 100%; }
+        td[class="pattern"] .col{
+            width: 33%;
+        }
+    }
+    @media only screen and (max-width: 500px) {
+        td[class="pattern"] .col{
+            width: 100%;
+            display: block;
+        }
+        td[class="pattern"] .col-left,
+        td[class="pattern"] .col-mid {
+            margin-bottom: 20px;
+        }
+    }
+</style>
+
+<div style="padding-right: 10px;" class="desktop-button1 mobile-buttons">
+
+<a href="https://www.planetrent.co.uk/" target="_blank"><button class="button-1 button" ><strong>SIGN UP<br> FOR <br> FREE </strong></button></a>
+
+</div>
+
+<p style="padding-bottom: 5px; font-size: 20px;"> Still managing your properties using spreadsheets or manually? No way to track offers and tenancies in real time? Then you need Planet Rent, the end to end application that lets you manage your all properties in one place.</p>
+
+<table cellpadding="0" cellspacing="0">
+    <tr>
+        <td class="pattern" width="600" align="center">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="col col-left" width="200" align="left" valign="top">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="left">
+                                    <table cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="left">
+
+                                                                                            <div style="padding-top: 10px; padding-bottom: 10px;">
+                                                                                            <ul>
+                                                                                                <p style="font-size: 20px;"><strong>PlanetRent allows you to:</strong></p>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px;">See all your properties in one place </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Manage the lettings process from offer through to move in </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Automate the viewing process </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Agree to an offer and create a new tenancy agreement in minutes</li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Electronically sign documents on your phone </li>
+                                                                                                <li style="font-size: 20px">Collect rents by direct debit </li>
+                                                                                            </ul>
+                                                                                            </div>
+
+                                                                                            <p style="font-size: 20px;">Planet Rent is built by Ringley, the multi-award winning property Management Company, with over twenty years of industry expertise.</p>
+                                            </td>
+                                        </tr>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="col col-mid" width="200" align="center" valign="top">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="left">
+                                    <table cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="center">
+                                                                                                <div style="height: 80%; width: 80%;">
+                                                <img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/New+Tracker.jpg">
+                                                                                            </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+                        <div class="col-sm-12" style="padding-top: 10px;">
+
+                    <h1 align="center"><strong>Start saving time and money NOW by clicking below!</strong></h1>
+                            <div align="center" style="padding-bottom: 15px;">
+
+                      <a href="https://www.planetrent.co.uk/" target="_blank"><button type="button" class="button button-2"><strong>REGISTER TODAY <br> FOR FREE</strong></button></a>
+
+                            </div>
+
+                    <div style="padding-bottom: 10px;" align="center">
+
+                    <a href="https://en-gb.facebook.com/TheRingleyGroup/"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/facebook-logo-button.png" style="padding-right: 30px;"></a>
+                    <a href="https://uk.linkedin.com/company/the-ringley-group?trk=ppro_cprof"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/linkedin.png" style="padding-right: 30px;"></a>
+                    <a href="https://twitter.com/TheRingleyGroup"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/twitter-logo-button.png"></a>
+
+                  </div>
+
+                  </div>
+
+</body>
+</html>
+
+----==_mimepart_5ae3397f313f5_382a131997076038--
+
+  Rendering email_mailer/weekly.html.erb
+  Rendered email_mailer/weekly.html.erb (0.1ms)
+  Rendering email_mailer/weekly.text.erb
+  Rendered email_mailer/weekly.text.erb (0.0ms)
+EmailMailer#weekly: processed outbound mail in 6.9ms
+Sent mail to robson_peacock20@outlook.com (262.9ms)
+Date: Fri, 27 Apr 2018 16:02:39 +0100
+From: from@example.com
+To: robson_peacock20@outlook.com
+Message-ID: <5ae33b8fb156c_382a1319970763d2@robson-VirtualBox.mail>
+Subject: Planet Rent email
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5ae33b8fb0d9e_382a1319970762c2";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5ae33b8fb0d9e_382a1319970762c2
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+EmailMailer#weekly
+
+, find me in
+app/views/my_mailer/mailer.text.erb
+
+----==_mimepart_5ae33b8fb0d9e_382a1319970762c2
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- If you delete this tag, the sky will fall on your head -->
+<meta name="viewport" content="width=device-width" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>ZURBemails</title>
+
+<style>
+
+/* -------------------------------------
+        GLOBAL
+------------------------------------- */
+* {
+    margin:0;
+    padding:0;
+}
+* { font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+
+img {
+    max-width: 100%;
+}
+.collapse {
+    margin:0;
+    padding:0;
+}
+body {
+    -webkit-font-smoothing:antialiased;
+    -webkit-text-size-adjust:none;
+    width: 100%!important;
+    height: 100%;
+    background-color: #a1acb9;
+}
+button:hover {
+    background-color: #3393ff;
+}
+
+
+/* -------------------------------------
+        ELEMENTS
+------------------------------------- */
+a { color: #2BA6CB;}
+
+.btn {
+    text-decoration:none;
+    color: #FFF;
+    background-color: #666;
+    padding:10px 16px;
+    font-weight:bold;
+    margin-right:10px;
+    text-align:center;
+    cursor:pointer;
+    display: inline-block;
+}
+
+p.callout {
+    padding:15px;
+    background-color:#ECF8FF;
+    margin-bottom: 15px;
+}
+.callout a {
+    font-weight:bold;
+    color: #2BA6CB;
+}
+
+table.social {
+/*     padding:15px; */
+    background-color: #ebebeb;
+
+}
+.social .soc-btn {
+    padding: 3px 7px;
+    font-size:12px;
+    margin-bottom:10px;
+    text-decoration:none;
+    color: #FFF;font-weight:bold;
+    display:block;
+    text-align:center;
+}
+a.fb { background-color: #3B5998!important; }
+a.tw { background-color: #1daced!important; }
+a.gp { background-color: #DB4A39!important; }
+a.ms { background-color: #000!important; }
+
+.sidebar .soc-btn {
+    display:block;
+    width:100%;
+}
+
+/* -------------------------------------
+        HEADER
+------------------------------------- */
+table.head-wrap { width: 100%;}
+
+.header.container table td.logo { padding: 15px; }
+.header.container table td.label { padding: 15px; padding-left:0px;}
+
+
+/* -------------------------------------
+        BODY
+------------------------------------- */
+table.body-wrap { width: 100%;}
+
+
+/* -------------------------------------
+        FOOTER
+------------------------------------- */
+table.footer-wrap { width: 100%;    clear:both!important;
+}
+.footer-wrap .container td.content  p { border-top: 1px solid rgb(215,215,215); padding-top:15px;}
+.footer-wrap .container td.content p {
+    font-size:10px;
+    font-weight: bold;
+
+}
+
+
+/* -------------------------------------
+        TYPOGRAPHY
+------------------------------------- */
+h1,h2,h3,h4,h5,h6 {
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; line-height: 1.1; margin-bottom:15px; color:#000;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; }
+
+h1 { font-weight:200; font-size: 44px;}
+h2 { font-weight:200; font-size: 37px;}
+h3 { font-weight:500; font-size: 27px;}
+h4 { font-weight:500; font-size: 23px;}
+h5 { font-weight:900; font-size: 17px;}
+h6 { font-weight:900; font-size: 14px; text-transform: uppercase; color:#444;}
+
+.collapse { margin:0!important;}
+
+p, ul {
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size:14px;
+    line-height:1.6;
+}
+p.lead { font-size:17px; }
+p.last { margin-bottom:0px;}
+
+ul li {
+    margin-left:5px;
+    list-style-position: inside;
+}
+
+/* -------------------------------------
+        SIDEBAR
+------------------------------------- */
+ul.sidebar {
+    background:#ebebeb;
+    display:block;
+    list-style-type: none;
+}
+ul.sidebar li { display: block; margin:0;}
+ul.sidebar li a {
+    text-decoration:none;
+    color: #666;
+    padding:10px 16px;
+/*     font-weight:bold; */
+    margin-right:10px;
+/*     text-align:center; */
+    cursor:pointer;
+    border-bottom: 1px solid #777777;
+    border-top: 1px solid #FFFFFF;
+    display:block;
+    margin:0;
+}
+ul.sidebar li a.last { border-bottom-width:0px;}
+ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.sidebar li a h5,ul.sidebar li a h6,ul.sidebar li a p { margin-bottom:0!important;}
+
+
+
+/* ---------------------------------------------------
+        RESPONSIVENESS
+        Nuke it from orbit. It's the only way to be sure.
+------------------------------------------------------ */
+
+/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+.container {
+    display:block!important;
+    max-width:600px!important;
+    margin:0 auto!important; /* makes it centered */
+    clear:both!important;
+}
+
+/* This should also be a block element, so that it will fill 100% of the .container */
+.content {
+    padding:15px;
+    max-width:800px;
+    margin:0 auto;
+    display:block;
+}
+
+/* Let's make sure tables in the content area are 100% wide */
+.content table { width: 100%; }
+
+
+/* Odds and ends */
+.column {
+    width: 300px;
+    float:left;
+}
+.column tr td { padding: 15px; }
+.column-wrap {
+    padding:0!important;
+    margin:0 auto;
+    max-width:600px!important;
+}
+.column table { width:100%;}
+.social .column {
+    width: 280px;
+    min-width: 279px;
+    float:left;
+}
+
+.col-sm-4 {
+    position:relative;
+    min-height:1px;
+}
+
+.col-sm-4 {
+    -ms-flex:0 0 33.333333%;
+    flex:0 0 33.333333%;
+    max-width:33.333333%;
+}
+
+.col-sm-4 {float:left}
+
+.col-sm-4{width:33.33333333%}
+
+.center-column {
+    height: 468px;
+}
+
+.right-column {
+    float: right;
+}
+
+.row {
+    margin-right:-15px;
+    margin-left:-15px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: 3px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button-1 {border-radius: 50%;}
+
+.button-2 {border-radius: 25px;}
+
+.row:after {display:table;content:" "}
+
+.row:before{display:table;content:" "}
+
+.row:after{clear:both}
+
+/* Be sure to place a .clear element after each set of columns, just to be safe */
+.clear { display: block; clear: both; }
+
+
+/* -------------------------------------------
+        PHONE
+        For clients that support media queries.
+        Nothing fancy.
+-------------------------------------------- */
+@media only screen and (max-width: 600px) {
+
+    a[class="btn"] { display:block!important; margin-bottom:10px!important; background-image:none!important; margin-right:0!important;}
+
+    div[class="column"] { width: auto!important; float:none!important;}
+
+    table.social div[class="column"] {
+        width:auto!important;
+    }
+
+    .mobile-buttons {
+        margin: auto;
+      position: relative;
+      text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+
+    }
+
+}
+
+@media only screen and (min-width: 601px) {
+
+        .desktop-button1 {
+            float: left;
+        }
+
+}
+
+</style>
+
+</head>
+
+<body >
+
+            <div class="content" style="background-color: white;">
+            <table>
+                <tr>
+                    <td>
+
+                        <img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/Header.png">
+                        <p class="lead"></p>
+
+
+
+
+<style>
+    /* 3 equal-width columns Layout Pattern CSS */
+    @media only screen and (max-width: 599px) {
+        td[class="pattern"] table { width: 100%; }
+        td[class="pattern"] .col{
+            width: 33%;
+        }
+    }
+    @media only screen and (max-width: 500px) {
+        td[class="pattern"] .col{
+            width: 100%;
+            display: block;
+        }
+        td[class="pattern"] .col-left,
+        td[class="pattern"] .col-mid {
+            margin-bottom: 20px;
+        }
+    }
+</style>
+
+<div style="padding-right: 10px;" class="desktop-button1 mobile-buttons">
+
+<a href="https://www.planetrent.co.uk/" target="_blank"><button class="button-1 button" ><strong>SIGN UP<br> FOR <br> FREE </strong></button></a>
+
+</div>
+
+<p style="padding-bottom: 5px; font-size: 20px;"> Still managing your properties using spreadsheets or manually? No way to track offers and tenancies in real time? Then you need Planet Rent, the end to end application that lets you manage your all properties in one place.</p>
+
+<table cellpadding="0" cellspacing="0">
+    <tr>
+        <td class="pattern" width="600" align="center">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="col col-left" width="200" align="left" valign="top">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="left">
+                                    <table cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="left">
+
+                                                                                            <div style="padding-top: 10px; padding-bottom: 10px;">
+                                                                                            <ul>
+                                                                                                <p style="font-size: 20px;"><strong>PlanetRent allows you to:</strong></p>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px;">See all your properties in one place </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Manage the lettings process from offer through to move in </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Automate the viewing process </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Agree to an offer and create a new tenancy agreement in minutes</li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Electronically sign documents on your phone </li>
+                                                                                                <li style="font-size: 20px">Collect rents by direct debit </li>
+                                                                                            </ul>
+                                                                                            </div>
+
+                                                                                            <p style="font-size: 20px;">Planet Rent is built by Ringley, the multi-award winning property Management Company, with over twenty years of industry expertise.</p>
+                                            </td>
+                                        </tr>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="col col-mid" width="200" align="center" valign="top">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="left">
+                                    <table cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="center">
+                                                                                                <div style="height: 80%; width: 80%;">
+                                                <img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/New+Tracker.jpg">
+                                                                                            </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+                        <div class="col-sm-12" style="padding-top: 10px;">
+
+                    <h1 align="center"><strong>Start saving time and money NOW by clicking below!</strong></h1>
+                            <div align="center" style="padding-bottom: 15px;">
+
+                      <a href="https://www.planetrent.co.uk/" target="_blank"><button type="button" class="button button-2"><strong>REGISTER TODAY <br> FOR FREE</strong></button></a>
+
+                            </div>
+
+                    <div style="padding-bottom: 10px;" align="center">
+
+                    <a href="https://en-gb.facebook.com/TheRingleyGroup/"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/facebook-logo-button.png" style="padding-right: 30px;"></a>
+                    <a href="https://uk.linkedin.com/company/the-ringley-group?trk=ppro_cprof"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/linkedin.png" style="padding-right: 30px;"></a>
+                    <a href="https://twitter.com/TheRingleyGroup"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/twitter-logo-button.png"></a>
+
+                  </div>
+
+                  </div>
+
+</body>
+</html>
+
+----==_mimepart_5ae33b8fb0d9e_382a1319970762c2--
+
+  Rendering email_mailer/weekly.html.erb
+  Rendered email_mailer/weekly.html.erb (4.4ms)
+  Rendering email_mailer/weekly.text.erb
+  Rendered email_mailer/weekly.text.erb (0.7ms)
+EmailMailer#weekly: processed outbound mail in 304.7ms
+Sent mail to robson_peacock20@outlook.com (5484.2ms)
+Date: Fri, 27 Apr 2018 16:09:45 +0100
+From: from@example.com
+To: robson_peacock20@outlook.com
+Message-ID: <5ae33d39dc325_3d22d499648462b@robson-VirtualBox.mail>
+Subject: Planet Rent email
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5ae33d39daf1c_3d22d49964845ad";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5ae33d39daf1c_3d22d49964845ad
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+EmailMailer#weekly
+
+, find me in
+app/views/my_mailer/mailer.text.erb
+
+----==_mimepart_5ae33d39daf1c_3d22d49964845ad
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- If you delete this tag, the sky will fall on your head -->
+<meta name="viewport" content="width=device-width" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>ZURBemails</title>
+
+<style>
+
+/* -------------------------------------
+        GLOBAL
+------------------------------------- */
+* {
+    margin:0;
+    padding:0;
+}
+* { font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+
+img {
+    max-width: 100%;
+}
+.collapse {
+    margin:0;
+    padding:0;
+}
+body {
+    -webkit-font-smoothing:antialiased;
+    -webkit-text-size-adjust:none;
+    width: 100%!important;
+    height: 100%;
+    background-color: #a1acb9;
+}
+button:hover {
+    background-color: #3393ff;
+}
+
+
+/* -------------------------------------
+        ELEMENTS
+------------------------------------- */
+a { color: #2BA6CB;}
+
+.btn {
+    text-decoration:none;
+    color: #FFF;
+    background-color: #666;
+    padding:10px 16px;
+    font-weight:bold;
+    margin-right:10px;
+    text-align:center;
+    cursor:pointer;
+    display: inline-block;
+}
+
+p.callout {
+    padding:15px;
+    background-color:#ECF8FF;
+    margin-bottom: 15px;
+}
+.callout a {
+    font-weight:bold;
+    color: #2BA6CB;
+}
+
+table.social {
+/*     padding:15px; */
+    background-color: #ebebeb;
+
+}
+.social .soc-btn {
+    padding: 3px 7px;
+    font-size:12px;
+    margin-bottom:10px;
+    text-decoration:none;
+    color: #FFF;font-weight:bold;
+    display:block;
+    text-align:center;
+}
+a.fb { background-color: #3B5998!important; }
+a.tw { background-color: #1daced!important; }
+a.gp { background-color: #DB4A39!important; }
+a.ms { background-color: #000!important; }
+
+.sidebar .soc-btn {
+    display:block;
+    width:100%;
+}
+
+/* -------------------------------------
+        HEADER
+------------------------------------- */
+table.head-wrap { width: 100%;}
+
+.header.container table td.logo { padding: 15px; }
+.header.container table td.label { padding: 15px; padding-left:0px;}
+
+
+/* -------------------------------------
+        BODY
+------------------------------------- */
+table.body-wrap { width: 100%;}
+
+
+/* -------------------------------------
+        FOOTER
+------------------------------------- */
+table.footer-wrap { width: 100%;    clear:both!important;
+}
+.footer-wrap .container td.content  p { border-top: 1px solid rgb(215,215,215); padding-top:15px;}
+.footer-wrap .container td.content p {
+    font-size:10px;
+    font-weight: bold;
+
+}
+
+
+/* -------------------------------------
+        TYPOGRAPHY
+------------------------------------- */
+h1,h2,h3,h4,h5,h6 {
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; line-height: 1.1; margin-bottom:15px; color:#000;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; }
+
+h1 { font-weight:200; font-size: 44px;}
+h2 { font-weight:200; font-size: 37px;}
+h3 { font-weight:500; font-size: 27px;}
+h4 { font-weight:500; font-size: 23px;}
+h5 { font-weight:900; font-size: 17px;}
+h6 { font-weight:900; font-size: 14px; text-transform: uppercase; color:#444;}
+
+.collapse { margin:0!important;}
+
+p, ul {
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size:14px;
+    line-height:1.6;
+}
+p.lead { font-size:17px; }
+p.last { margin-bottom:0px;}
+
+ul li {
+    margin-left:5px;
+    list-style-position: inside;
+}
+
+/* -------------------------------------
+        SIDEBAR
+------------------------------------- */
+ul.sidebar {
+    background:#ebebeb;
+    display:block;
+    list-style-type: none;
+}
+ul.sidebar li { display: block; margin:0;}
+ul.sidebar li a {
+    text-decoration:none;
+    color: #666;
+    padding:10px 16px;
+/*     font-weight:bold; */
+    margin-right:10px;
+/*     text-align:center; */
+    cursor:pointer;
+    border-bottom: 1px solid #777777;
+    border-top: 1px solid #FFFFFF;
+    display:block;
+    margin:0;
+}
+ul.sidebar li a.last { border-bottom-width:0px;}
+ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.sidebar li a h5,ul.sidebar li a h6,ul.sidebar li a p { margin-bottom:0!important;}
+
+
+
+/* ---------------------------------------------------
+        RESPONSIVENESS
+        Nuke it from orbit. It's the only way to be sure.
+------------------------------------------------------ */
+
+/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+.container {
+    display:block!important;
+    max-width:600px!important;
+    margin:0 auto!important; /* makes it centered */
+    clear:both!important;
+}
+
+/* This should also be a block element, so that it will fill 100% of the .container */
+.content {
+    padding:15px;
+    max-width:800px;
+    margin:0 auto;
+    display:block;
+}
+
+/* Let's make sure tables in the content area are 100% wide */
+.content table { width: 100%; }
+
+
+/* Odds and ends */
+.column {
+    width: 300px;
+    float:left;
+}
+.column tr td { padding: 15px; }
+.column-wrap {
+    padding:0!important;
+    margin:0 auto;
+    max-width:600px!important;
+}
+.column table { width:100%;}
+.social .column {
+    width: 280px;
+    min-width: 279px;
+    float:left;
+}
+
+.col-sm-4 {
+    position:relative;
+    min-height:1px;
+}
+
+.col-sm-4 {
+    -ms-flex:0 0 33.333333%;
+    flex:0 0 33.333333%;
+    max-width:33.333333%;
+}
+
+.col-sm-4 {float:left}
+
+.col-sm-4{width:33.33333333%}
+
+.center-column {
+    height: 468px;
+}
+
+.right-column {
+    float: right;
+}
+
+.row {
+    margin-right:-15px;
+    margin-left:-15px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: 3px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button-1 {border-radius: 50%;}
+
+.button-2 {border-radius: 25px;}
+
+.row:after {display:table;content:" "}
+
+.row:before{display:table;content:" "}
+
+.row:after{clear:both}
+
+/* Be sure to place a .clear element after each set of columns, just to be safe */
+.clear { display: block; clear: both; }
+
+
+/* -------------------------------------------
+        PHONE
+        For clients that support media queries.
+        Nothing fancy.
+-------------------------------------------- */
+@media only screen and (max-width: 600px) {
+
+    a[class="btn"] { display:block!important; margin-bottom:10px!important; background-image:none!important; margin-right:0!important;}
+
+    div[class="column"] { width: auto!important; float:none!important;}
+
+    table.social div[class="column"] {
+        width:auto!important;
+    }
+
+    .mobile-buttons {
+        margin: auto;
+      position: relative;
+      text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+
+    }
+
+}
+
+@media only screen and (min-width: 601px) {
+
+        .desktop-button1 {
+            float: left;
+        }
+
+}
+
+</style>
+
+</head>
+
+<body >
+
+            <div class="content" style="background-color: white;">
+            <table>
+                <tr>
+                    <td>
+
+                        <img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/Header.png">
+                        <p class="lead"></p>
+
+
+
+
+<style>
+    /* 3 equal-width columns Layout Pattern CSS */
+    @media only screen and (max-width: 599px) {
+        td[class="pattern"] table { width: 100%; }
+        td[class="pattern"] .col{
+            width: 33%;
+        }
+    }
+    @media only screen and (max-width: 500px) {
+        td[class="pattern"] .col{
+            width: 100%;
+            display: block;
+        }
+        td[class="pattern"] .col-left,
+        td[class="pattern"] .col-mid {
+            margin-bottom: 20px;
+        }
+    }
+</style>
+
+<div style="padding-right: 10px;" class="desktop-button1 mobile-buttons">
+
+<a href="https://www.planetrent.co.uk/" target="_blank"><button class="button-1 button" ><strong>SIGN UP<br> FOR <br> FREE </strong></button></a>
+
+</div>
+
+<p style="padding-bottom: 5px; font-size: 20px;"> Still managing your properties using spreadsheets or manually? No way to track offers and tenancies in real time? Then you need Planet Rent, the end to end application that lets you manage your all properties in one place.</p>
+
+<table cellpadding="0" cellspacing="0">
+    <tr>
+        <td class="pattern" width="600" align="center">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="col col-left" width="200" align="left" valign="top">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="left">
+                                    <table cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="left">
+
+                                                                                            <div style="padding-top: 10px; padding-bottom: 10px;">
+                                                                                            <ul>
+                                                                                                <p style="font-size: 20px;"><strong>PlanetRent allows you to:</strong></p>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px;">See all your properties in one place </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Manage the lettings process from offer through to move in </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Automate the viewing process </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Agree to an offer and create a new tenancy agreement in minutes</li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Electronically sign documents on your phone </li>
+                                                                                                <li style="font-size: 20px">Collect rents by direct debit </li>
+                                                                                            </ul>
+                                                                                            </div>
+
+                                                                                            <p style="font-size: 20px;">Planet Rent is built by Ringley, the multi-award winning property Management Company, with over twenty years of industry expertise.</p>
+                                            </td>
+                                        </tr>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="col col-mid" width="200" align="center" valign="top">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="left">
+                                    <table cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="center">
+                                                                                                <div style="height: 80%; width: 80%;">
+                                                <img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/New+Tracker.jpg">
+                                                                                            </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+                        <div class="col-sm-12" style="padding-top: 10px;">
+
+                    <h1 align="center"><strong>Start saving time and money NOW by clicking below!</strong></h1>
+                            <div align="center" style="padding-bottom: 15px;">
+
+                      <a href="https://www.planetrent.co.uk/" target="_blank"><button type="button" class="button button-2"><strong>REGISTER TODAY <br> FOR FREE</strong></button></a>
+
+                            </div>
+
+                    <div style="padding-bottom: 10px;" align="center">
+
+                    <a href="https://en-gb.facebook.com/TheRingleyGroup/"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/facebook-logo-button.png" style="padding-right: 30px;"></a>
+                    <a href="https://uk.linkedin.com/company/the-ringley-group?trk=ppro_cprof"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/linkedin.png" style="padding-right: 30px;"></a>
+                    <a href="https://twitter.com/TheRingleyGroup"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/twitter-logo-button.png"></a>
+
+                  </div>
+
+                  </div>
+
+</body>
+</html>
+
+----==_mimepart_5ae33d39daf1c_3d22d49964845ad--
+
+  Rendering email_mailer/weekly.html.erb
+  Rendered email_mailer/weekly.html.erb (1.1ms)
+  Rendering email_mailer/weekly.text.erb
+  Rendered email_mailer/weekly.text.erb (0.2ms)
+EmailMailer#weekly: processed outbound mail in 251.1ms
+Sent mail to robson_peacock20@outlook.com (5344.9ms)
+Date: Fri, 27 Apr 2018 16:29:20 +0100
+From: from@example.com
+To: robson_peacock20@outlook.com
+Message-ID: <5ae341d070266_4c51a5d96c62453@robson-VirtualBox.mail>
+Subject: Planet Rent email
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5ae341d06d836_4c51a5d96c62388";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5ae341d06d836_4c51a5d96c62388
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+EmailMailer#weekly
+
+, find me in
+app/views/my_mailer/mailer.text.erb
+
+----==_mimepart_5ae341d06d836_4c51a5d96c62388
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- If you delete this tag, the sky will fall on your head -->
+<meta name="viewport" content="width=device-width" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>ZURBemails</title>
+
+<style>
+
+/* -------------------------------------
+        GLOBAL
+------------------------------------- */
+* {
+    margin:0;
+    padding:0;
+}
+* { font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+
+img {
+    max-width: 100%;
+}
+.collapse {
+    margin:0;
+    padding:0;
+}
+body {
+    -webkit-font-smoothing:antialiased;
+    -webkit-text-size-adjust:none;
+    width: 100%!important;
+    height: 100%;
+    background-color: #a1acb9;
+}
+button:hover {
+    background-color: #3393ff;
+}
+
+
+/* -------------------------------------
+        ELEMENTS
+------------------------------------- */
+a { color: #2BA6CB;}
+
+.btn {
+    text-decoration:none;
+    color: #FFF;
+    background-color: #666;
+    padding:10px 16px;
+    font-weight:bold;
+    margin-right:10px;
+    text-align:center;
+    cursor:pointer;
+    display: inline-block;
+}
+
+p.callout {
+    padding:15px;
+    background-color:#ECF8FF;
+    margin-bottom: 15px;
+}
+.callout a {
+    font-weight:bold;
+    color: #2BA6CB;
+}
+
+table.social {
+/*     padding:15px; */
+    background-color: #ebebeb;
+
+}
+.social .soc-btn {
+    padding: 3px 7px;
+    font-size:12px;
+    margin-bottom:10px;
+    text-decoration:none;
+    color: #FFF;font-weight:bold;
+    display:block;
+    text-align:center;
+}
+a.fb { background-color: #3B5998!important; }
+a.tw { background-color: #1daced!important; }
+a.gp { background-color: #DB4A39!important; }
+a.ms { background-color: #000!important; }
+
+.sidebar .soc-btn {
+    display:block;
+    width:100%;
+}
+
+/* -------------------------------------
+        HEADER
+------------------------------------- */
+table.head-wrap { width: 100%;}
+
+.header.container table td.logo { padding: 15px; }
+.header.container table td.label { padding: 15px; padding-left:0px;}
+
+
+/* -------------------------------------
+        BODY
+------------------------------------- */
+table.body-wrap { width: 100%;}
+
+
+/* -------------------------------------
+        FOOTER
+------------------------------------- */
+table.footer-wrap { width: 100%;    clear:both!important;
+}
+.footer-wrap .container td.content  p { border-top: 1px solid rgb(215,215,215); padding-top:15px;}
+.footer-wrap .container td.content p {
+    font-size:10px;
+    font-weight: bold;
+
+}
+
+
+/* -------------------------------------
+        TYPOGRAPHY
+------------------------------------- */
+h1,h2,h3,h4,h5,h6 {
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; line-height: 1.1; margin-bottom:15px; color:#000;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; }
+
+h1 { font-weight:200; font-size: 44px;}
+h2 { font-weight:200; font-size: 37px;}
+h3 { font-weight:500; font-size: 27px;}
+h4 { font-weight:500; font-size: 23px;}
+h5 { font-weight:900; font-size: 17px;}
+h6 { font-weight:900; font-size: 14px; text-transform: uppercase; color:#444;}
+
+.collapse { margin:0!important;}
+
+p, ul {
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size:14px;
+    line-height:1.6;
+}
+p.lead { font-size:17px; }
+p.last { margin-bottom:0px;}
+
+ul li {
+    margin-left:5px;
+    list-style-position: inside;
+}
+
+/* -------------------------------------
+        SIDEBAR
+------------------------------------- */
+ul.sidebar {
+    background:#ebebeb;
+    display:block;
+    list-style-type: none;
+}
+ul.sidebar li { display: block; margin:0;}
+ul.sidebar li a {
+    text-decoration:none;
+    color: #666;
+    padding:10px 16px;
+/*     font-weight:bold; */
+    margin-right:10px;
+/*     text-align:center; */
+    cursor:pointer;
+    border-bottom: 1px solid #777777;
+    border-top: 1px solid #FFFFFF;
+    display:block;
+    margin:0;
+}
+ul.sidebar li a.last { border-bottom-width:0px;}
+ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.sidebar li a h5,ul.sidebar li a h6,ul.sidebar li a p { margin-bottom:0!important;}
+
+
+
+/* ---------------------------------------------------
+        RESPONSIVENESS
+        Nuke it from orbit. It's the only way to be sure.
+------------------------------------------------------ */
+
+/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+.container {
+    display:block!important;
+    max-width:600px!important;
+    margin:0 auto!important; /* makes it centered */
+    clear:both!important;
+}
+
+/* This should also be a block element, so that it will fill 100% of the .container */
+.content {
+    padding:15px;
+    max-width:800px;
+    margin:0 auto;
+    display:block;
+}
+
+/* Let's make sure tables in the content area are 100% wide */
+.content table { width: 100%; }
+
+
+/* Odds and ends */
+.column {
+    width: 300px;
+    float:left;
+}
+.column tr td { padding: 15px; }
+.column-wrap {
+    padding:0!important;
+    margin:0 auto;
+    max-width:600px!important;
+}
+.column table { width:100%;}
+.social .column {
+    width: 280px;
+    min-width: 279px;
+    float:left;
+}
+
+.col-sm-4 {
+    position:relative;
+    min-height:1px;
+}
+
+.col-sm-4 {
+    -ms-flex:0 0 33.333333%;
+    flex:0 0 33.333333%;
+    max-width:33.333333%;
+}
+
+.col-sm-4 {float:left}
+
+.col-sm-4{width:33.33333333%}
+
+.center-column {
+    height: 468px;
+}
+
+.right-column {
+    float: right;
+}
+
+.row {
+    margin-right:-15px;
+    margin-left:-15px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: 3px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button-1 {border-radius: 50%;}
+
+.button-2 {border-radius: 25px;}
+
+.row:after {display:table;content:" "}
+
+.row:before{display:table;content:" "}
+
+.row:after{clear:both}
+
+/* Be sure to place a .clear element after each set of columns, just to be safe */
+.clear { display: block; clear: both; }
+
+
+/* -------------------------------------------
+        PHONE
+        For clients that support media queries.
+        Nothing fancy.
+-------------------------------------------- */
+@media only screen and (max-width: 600px) {
+
+    a[class="btn"] { display:block!important; margin-bottom:10px!important; background-image:none!important; margin-right:0!important;}
+
+    div[class="column"] { width: auto!important; float:none!important;}
+
+    table.social div[class="column"] {
+        width:auto!important;
+    }
+
+    .mobile-buttons {
+        margin: auto;
+      position: relative;
+      text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+
+    }
+
+}
+
+@media only screen and (min-width: 601px) {
+
+        .desktop-button1 {
+            float: left;
+        }
+
+}
+
+</style>
+
+</head>
+
+<body >
+
+            <div class="content" style="background-color: white;">
+            <table>
+                <tr>
+                    <td>
+
+                        <img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/Header.png">
+                        <p class="lead"></p>
+
+
+
+
+<style>
+    /* 3 equal-width columns Layout Pattern CSS */
+    @media only screen and (max-width: 599px) {
+        td[class="pattern"] table { width: 100%; }
+        td[class="pattern"] .col{
+            width: 33%;
+        }
+    }
+    @media only screen and (max-width: 500px) {
+        td[class="pattern"] .col{
+            width: 100%;
+            display: block;
+        }
+        td[class="pattern"] .col-left,
+        td[class="pattern"] .col-mid {
+            margin-bottom: 20px;
+        }
+    }
+</style>
+
+<div style="padding-right: 10px;" class="desktop-button1 mobile-buttons">
+
+<a href="https://www.planetrent.co.uk/" target="_blank"><button class="button-1 button" ><strong>SIGN UP<br> FOR <br> FREE </strong></button></a>
+
+</div>
+
+<p style="padding-bottom: 5px; font-size: 20px;"> Still managing your properties using spreadsheets or manually? No way to track offers and tenancies in real time? Then you need Planet Rent, the end to end application that lets you manage your all properties in one place.</p>
+
+<table cellpadding="0" cellspacing="0">
+    <tr>
+        <td class="pattern" width="600" align="center">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="col col-left" width="200" align="left" valign="top">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="left">
+                                    <table cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="left">
+
+                                                                                            <div style="padding-top: 10px; padding-bottom: 10px;">
+                                                                                            <ul>
+                                                                                                <p style="font-size: 20px;"><strong>PlanetRent allows you to:</strong></p>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px;">See all your properties in one place </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Manage the lettings process from offer through to move in </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Automate the viewing process </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Agree to an offer and create a new tenancy agreement in minutes</li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Electronically sign documents on your phone </li>
+                                                                                                <li style="font-size: 20px">Collect rents by direct debit </li>
+                                                                                            </ul>
+                                                                                            </div>
+
+                                                                                            <p style="font-size: 20px;">Planet Rent is built by Ringley, the multi-award winning property Management Company, with over twenty years of industry expertise.</p>
+                                            </td>
+                                        </tr>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="col col-mid" width="200" align="center" valign="top">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="left">
+                                    <table cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="center">
+                                                                                                <div style="height: 80%; width: 80%;">
+                                                <img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/New+Tracker.jpg">
+                                                                                            </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+                        <div class="col-sm-12" style="padding-top: 10px;">
+
+                    <h1 align="center"><strong>Start saving time and money NOW by clicking below!</strong></h1>
+                            <div align="center" style="padding-bottom: 15px;">
+
+                      <a href="https://www.planetrent.co.uk/" target="_blank"><button type="button" class="button button-2"><strong>REGISTER TODAY <br> FOR FREE</strong></button></a>
+
+                            </div>
+
+                    <div style="padding-bottom: 10px;" align="center">
+
+                    <a href="https://en-gb.facebook.com/TheRingleyGroup/"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/facebook-logo-button.png" style="padding-right: 30px;"></a>
+                    <a href="https://uk.linkedin.com/company/the-ringley-group?trk=ppro_cprof"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/linkedin.png" style="padding-right: 30px;"></a>
+                    <a href="https://twitter.com/TheRingleyGroup"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/twitter-logo-button.png"></a>
+
+                  </div>
+
+                  </div>
+
+</body>
+</html>
+
+----==_mimepart_5ae341d06d836_4c51a5d96c62388--
+
+Started GET "/" for 127.0.0.1 at 2018-04-27 16:38:00 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/robson/.rvm/gems/ruby-2.2.2/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/robson/.rvm/gems/ruby-2.2.2/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb (3.5ms)
+Completed 200 OK in 153ms (Views: 7.8ms)
+
+
+Started GET "/mail-form" for 127.0.0.1 at 2018-04-27 16:38:14 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/mail-form"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.1) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.1) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering email_mailer/weekly.html.erb
+  Rendered email_mailer/weekly.html.erb (1.0ms)
+  Rendering email_mailer/weekly.text.erb
+  Rendered email_mailer/weekly.text.erb (0.2ms)
+EmailMailer#weekly: processed outbound mail in 259.8ms
+Sent mail to robson_peacock20@outlook.com (5352.3ms)
+Date: Fri, 27 Apr 2018 18:04:13 +0100
+From: from@example.com
+To: robson_peacock20@outlook.com
+Message-ID: <5ae3580d27234_4fec112996c54724@robson-VirtualBox.mail>
+Subject: Planet Rent email
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5ae3580d260f1_4fec112996c54669";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5ae3580d260f1_4fec112996c54669
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+EmailMailer#weekly
+
+, find me in
+app/views/my_mailer/mailer.text.erb
+
+----==_mimepart_5ae3580d260f1_4fec112996c54669
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- If you delete this tag, the sky will fall on your head -->
+<meta name="viewport" content="width=device-width" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>ZURBemails</title>
+
+<style>
+
+/* -------------------------------------
+        GLOBAL
+------------------------------------- */
+* {
+    margin:0;
+    padding:0;
+}
+* { font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+
+img {
+    max-width: 100%;
+}
+.collapse {
+    margin:0;
+    padding:0;
+}
+body {
+    -webkit-font-smoothing:antialiased;
+    -webkit-text-size-adjust:none;
+    width: 100%!important;
+    height: 100%;
+    background-color: #a1acb9;
+}
+button:hover {
+    background-color: #3393ff;
+}
+
+
+/* -------------------------------------
+        ELEMENTS
+------------------------------------- */
+a { color: #2BA6CB;}
+
+.btn {
+    text-decoration:none;
+    color: #FFF;
+    background-color: #666;
+    padding:10px 16px;
+    font-weight:bold;
+    margin-right:10px;
+    text-align:center;
+    cursor:pointer;
+    display: inline-block;
+}
+
+p.callout {
+    padding:15px;
+    background-color:#ECF8FF;
+    margin-bottom: 15px;
+}
+.callout a {
+    font-weight:bold;
+    color: #2BA6CB;
+}
+
+table.social {
+/*     padding:15px; */
+    background-color: #ebebeb;
+
+}
+.social .soc-btn {
+    padding: 3px 7px;
+    font-size:12px;
+    margin-bottom:10px;
+    text-decoration:none;
+    color: #FFF;font-weight:bold;
+    display:block;
+    text-align:center;
+}
+a.fb { background-color: #3B5998!important; }
+a.tw { background-color: #1daced!important; }
+a.gp { background-color: #DB4A39!important; }
+a.ms { background-color: #000!important; }
+
+.sidebar .soc-btn {
+    display:block;
+    width:100%;
+}
+
+/* -------------------------------------
+        HEADER
+------------------------------------- */
+table.head-wrap { width: 100%;}
+
+.header.container table td.logo { padding: 15px; }
+.header.container table td.label { padding: 15px; padding-left:0px;}
+
+
+/* -------------------------------------
+        BODY
+------------------------------------- */
+table.body-wrap { width: 100%;}
+
+
+/* -------------------------------------
+        FOOTER
+------------------------------------- */
+table.footer-wrap { width: 100%;    clear:both!important;
+}
+.footer-wrap .container td.content  p { border-top: 1px solid rgb(215,215,215); padding-top:15px;}
+.footer-wrap .container td.content p {
+    font-size:10px;
+    font-weight: bold;
+
+}
+
+
+/* -------------------------------------
+        TYPOGRAPHY
+------------------------------------- */
+h1,h2,h3,h4,h5,h6 {
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; line-height: 1.1; margin-bottom:15px; color:#000;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; }
+
+h1 { font-weight:200; font-size: 44px;}
+h2 { font-weight:200; font-size: 37px;}
+h3 { font-weight:500; font-size: 27px;}
+h4 { font-weight:500; font-size: 23px;}
+h5 { font-weight:900; font-size: 17px;}
+h6 { font-weight:900; font-size: 14px; text-transform: uppercase; color:#444;}
+
+.collapse { margin:0!important;}
+
+p, ul {
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size:14px;
+    line-height:1.6;
+}
+p.lead { font-size:17px; }
+p.last { margin-bottom:0px;}
+
+ul li {
+    margin-left:5px;
+    list-style-position: inside;
+}
+
+/* -------------------------------------
+        SIDEBAR
+------------------------------------- */
+ul.sidebar {
+    background:#ebebeb;
+    display:block;
+    list-style-type: none;
+}
+ul.sidebar li { display: block; margin:0;}
+ul.sidebar li a {
+    text-decoration:none;
+    color: #666;
+    padding:10px 16px;
+/*     font-weight:bold; */
+    margin-right:10px;
+/*     text-align:center; */
+    cursor:pointer;
+    border-bottom: 1px solid #777777;
+    border-top: 1px solid #FFFFFF;
+    display:block;
+    margin:0;
+}
+ul.sidebar li a.last { border-bottom-width:0px;}
+ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.sidebar li a h5,ul.sidebar li a h6,ul.sidebar li a p { margin-bottom:0!important;}
+
+
+
+/* ---------------------------------------------------
+        RESPONSIVENESS
+        Nuke it from orbit. It's the only way to be sure.
+------------------------------------------------------ */
+
+/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+.container {
+    display:block!important;
+    max-width:600px!important;
+    margin:0 auto!important; /* makes it centered */
+    clear:both!important;
+}
+
+/* This should also be a block element, so that it will fill 100% of the .container */
+.content {
+    padding:15px;
+    max-width:800px;
+    margin:0 auto;
+    display:block;
+}
+
+/* Let's make sure tables in the content area are 100% wide */
+.content table { width: 100%; }
+
+
+/* Odds and ends */
+.column {
+    width: 300px;
+    float:left;
+}
+.column tr td { padding: 15px; }
+.column-wrap {
+    padding:0!important;
+    margin:0 auto;
+    max-width:600px!important;
+}
+.column table { width:100%;}
+.social .column {
+    width: 280px;
+    min-width: 279px;
+    float:left;
+}
+
+.col-sm-4 {
+    position:relative;
+    min-height:1px;
+}
+
+.col-sm-4 {
+    -ms-flex:0 0 33.333333%;
+    flex:0 0 33.333333%;
+    max-width:33.333333%;
+}
+
+.col-sm-4 {float:left}
+
+.col-sm-4{width:33.33333333%}
+
+.center-column {
+    height: 468px;
+}
+
+.right-column {
+    float: right;
+}
+
+.row {
+    margin-right:-15px;
+    margin-left:-15px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: 3px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button-1 {border-radius: 50%;}
+
+.button-2 {border-radius: 25px;}
+
+.row:after {display:table;content:" "}
+
+.row:before{display:table;content:" "}
+
+.row:after{clear:both}
+
+/* Be sure to place a .clear element after each set of columns, just to be safe */
+.clear { display: block; clear: both; }
+
+
+/* -------------------------------------------
+        PHONE
+        For clients that support media queries.
+        Nothing fancy.
+-------------------------------------------- */
+@media only screen and (max-width: 600px) {
+
+    a[class="btn"] { display:block!important; margin-bottom:10px!important; background-image:none!important; margin-right:0!important;}
+
+    div[class="column"] { width: auto!important; float:none!important;}
+
+    table.social div[class="column"] {
+        width:auto!important;
+    }
+
+    .mobile-buttons {
+        margin: auto;
+      position: relative;
+      text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+
+    }
+
+}
+
+@media only screen and (min-width: 601px) {
+
+        .desktop-button1 {
+            float: left;
+        }
+
+}
+
+</style>
+
+</head>
+
+<body >
+
+            <div class="content" style="background-color: white;">
+            <table>
+                <tr>
+                    <td>
+
+                        <img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/Header.png">
+                        <p class="lead"></p>
+
+
+
+
+<style>
+    /* 3 equal-width columns Layout Pattern CSS */
+    @media only screen and (max-width: 599px) {
+        td[class="pattern"] table { width: 100%; }
+        td[class="pattern"] .col{
+            width: 33%;
+        }
+    }
+    @media only screen and (max-width: 500px) {
+        td[class="pattern"] .col{
+            width: 100%;
+            display: block;
+        }
+        td[class="pattern"] .col-left,
+        td[class="pattern"] .col-mid {
+            margin-bottom: 20px;
+        }
+    }
+</style>
+
+<div style="padding-right: 10px;" class="desktop-button1 mobile-buttons">
+
+<a href="https://www.planetrent.co.uk/" target="_blank"><button class="button-1 button" ><strong>SIGN UP<br> FOR <br> FREE </strong></button></a>
+
+</div>
+
+<p style="padding-bottom: 5px; font-size: 20px;"> Still managing your properties using spreadsheets or manually? No way to track offers and tenancies in real time? Then you need Planet Rent, the end to end application that lets you manage your all properties in one place.</p>
+
+<table cellpadding="0" cellspacing="0">
+    <tr>
+        <td class="pattern" width="600" align="center">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="col col-left" width="200" align="left" valign="top">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="left">
+                                    <table cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="left">
+
+                                                                                            <div style="padding-top: 10px; padding-bottom: 10px;">
+                                                                                            <ul>
+                                                                                                <p style="font-size: 20px;"><strong>PlanetRent allows you to:</strong></p>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px;">See all your properties in one place </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Manage the lettings process from offer through to move in </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Automate the viewing process </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Agree to an offer and create a new tenancy agreement in minutes</li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Electronically sign documents on your phone </li>
+                                                                                                <li style="font-size: 20px">Collect rents by direct debit </li>
+                                                                                            </ul>
+                                                                                            </div>
+
+                                                                                            <p style="font-size: 20px;">Planet Rent is built by Ringley, the multi-award winning property Management Company, with over twenty years of industry expertise.</p>
+                                            </td>
+                                        </tr>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="col col-mid" width="200" align="center" valign="top">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="left">
+                                    <table cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="center">
+                                                                                                <div style="height: 80%; width: 80%;">
+                                                <img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/New+Tracker.jpg">
+                                                                                            </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+                        <div class="col-sm-12" style="padding-top: 10px;">
+
+                    <h1 align="center"><strong>Start saving time and money NOW by clicking below!</strong></h1>
+                            <div align="center" style="padding-bottom: 15px;">
+
+                      <a href="https://www.planetrent.co.uk/" target="_blank"><button type="button" class="button button-2"><strong>REGISTER TODAY <br> FOR FREE</strong></button></a>
+
+                            </div>
+
+                    <div style="padding-bottom: 10px;" align="center">
+
+                    <a href="https://en-gb.facebook.com/TheRingleyGroup/"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/facebook-logo-button.png" style="padding-right: 30px;"></a>
+                    <a href="https://uk.linkedin.com/company/the-ringley-group?trk=ppro_cprof"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/linkedin.png" style="padding-right: 30px;"></a>
+                    <a href="https://twitter.com/TheRingleyGroup"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/twitter-logo-button.png"></a>
+
+                  </div>
+
+                  </div>
+
+</body>
+</html>
+
+----==_mimepart_5ae3580d260f1_4fec112996c54669--
+
+  Rendering email_mailer/weekly.html.erb
+  Rendered email_mailer/weekly.html.erb (1.4ms)
+  Rendering email_mailer/weekly.text.erb
+  Rendered email_mailer/weekly.text.erb (0.2ms)
+EmailMailer#weekly: processed outbound mail in 258.2ms
+Sent mail to robsonpeacock10@gmail.com (464.2ms)
+Date: Fri, 27 Apr 2018 18:19:22 +0100
+From: from@example.com
+To: robsonpeacock10@gmail.com
+Message-ID: <5ae35b9a1e577_518bc8196469098@robson-VirtualBox.mail>
+Subject: Planet Rent email
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5ae35b9a1ce44_518bc819646894";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5ae35b9a1ce44_518bc819646894
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+EmailMailer#weekly
+
+, find me in
+app/views/my_mailer/mailer.text.erb
+
+----==_mimepart_5ae35b9a1ce44_518bc819646894
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- If you delete this tag, the sky will fall on your head -->
+<meta name="viewport" content="width=device-width" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>ZURBemails</title>
+
+<style>
+
+/* -------------------------------------
+        GLOBAL
+------------------------------------- */
+* {
+    margin:0;
+    padding:0;
+}
+* { font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+
+img {
+    max-width: 100%;
+}
+.collapse {
+    margin:0;
+    padding:0;
+}
+body {
+    -webkit-font-smoothing:antialiased;
+    -webkit-text-size-adjust:none;
+    width: 100%!important;
+    height: 100%;
+    background-color: #a1acb9;
+}
+button:hover {
+    background-color: #3393ff;
+}
+
+
+/* -------------------------------------
+        ELEMENTS
+------------------------------------- */
+a { color: #2BA6CB;}
+
+.btn {
+    text-decoration:none;
+    color: #FFF;
+    background-color: #666;
+    padding:10px 16px;
+    font-weight:bold;
+    margin-right:10px;
+    text-align:center;
+    cursor:pointer;
+    display: inline-block;
+}
+
+p.callout {
+    padding:15px;
+    background-color:#ECF8FF;
+    margin-bottom: 15px;
+}
+.callout a {
+    font-weight:bold;
+    color: #2BA6CB;
+}
+
+table.social {
+/*     padding:15px; */
+    background-color: #ebebeb;
+
+}
+.social .soc-btn {
+    padding: 3px 7px;
+    font-size:12px;
+    margin-bottom:10px;
+    text-decoration:none;
+    color: #FFF;font-weight:bold;
+    display:block;
+    text-align:center;
+}
+a.fb { background-color: #3B5998!important; }
+a.tw { background-color: #1daced!important; }
+a.gp { background-color: #DB4A39!important; }
+a.ms { background-color: #000!important; }
+
+.sidebar .soc-btn {
+    display:block;
+    width:100%;
+}
+
+/* -------------------------------------
+        HEADER
+------------------------------------- */
+table.head-wrap { width: 100%;}
+
+.header.container table td.logo { padding: 15px; }
+.header.container table td.label { padding: 15px; padding-left:0px;}
+
+
+/* -------------------------------------
+        BODY
+------------------------------------- */
+table.body-wrap { width: 100%;}
+
+
+/* -------------------------------------
+        FOOTER
+------------------------------------- */
+table.footer-wrap { width: 100%;    clear:both!important;
+}
+.footer-wrap .container td.content  p { border-top: 1px solid rgb(215,215,215); padding-top:15px;}
+.footer-wrap .container td.content p {
+    font-size:10px;
+    font-weight: bold;
+
+}
+
+
+/* -------------------------------------
+        TYPOGRAPHY
+------------------------------------- */
+h1,h2,h3,h4,h5,h6 {
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; line-height: 1.1; margin-bottom:15px; color:#000;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; }
+
+h1 { font-weight:200; font-size: 44px;}
+h2 { font-weight:200; font-size: 37px;}
+h3 { font-weight:500; font-size: 27px;}
+h4 { font-weight:500; font-size: 23px;}
+h5 { font-weight:900; font-size: 17px;}
+h6 { font-weight:900; font-size: 14px; text-transform: uppercase; color:#444;}
+
+.collapse { margin:0!important;}
+
+p, ul {
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size:14px;
+    line-height:1.6;
+}
+p.lead { font-size:17px; }
+p.last { margin-bottom:0px;}
+
+ul li {
+    margin-left:5px;
+    list-style-position: inside;
+}
+
+/* -------------------------------------
+        SIDEBAR
+------------------------------------- */
+ul.sidebar {
+    background:#ebebeb;
+    display:block;
+    list-style-type: none;
+}
+ul.sidebar li { display: block; margin:0;}
+ul.sidebar li a {
+    text-decoration:none;
+    color: #666;
+    padding:10px 16px;
+/*     font-weight:bold; */
+    margin-right:10px;
+/*     text-align:center; */
+    cursor:pointer;
+    border-bottom: 1px solid #777777;
+    border-top: 1px solid #FFFFFF;
+    display:block;
+    margin:0;
+}
+ul.sidebar li a.last { border-bottom-width:0px;}
+ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.sidebar li a h5,ul.sidebar li a h6,ul.sidebar li a p { margin-bottom:0!important;}
+
+
+
+/* ---------------------------------------------------
+        RESPONSIVENESS
+        Nuke it from orbit. It's the only way to be sure.
+------------------------------------------------------ */
+
+/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+.container {
+    display:block!important;
+    max-width:600px!important;
+    margin:0 auto!important; /* makes it centered */
+    clear:both!important;
+}
+
+/* This should also be a block element, so that it will fill 100% of the .container */
+.content {
+    padding:15px;
+    max-width:800px;
+    margin:0 auto;
+    display:block;
+}
+
+/* Let's make sure tables in the content area are 100% wide */
+.content table { width: 100%; }
+
+
+/* Odds and ends */
+.column {
+    width: 300px;
+    float:left;
+}
+.column tr td { padding: 15px; }
+.column-wrap {
+    padding:0!important;
+    margin:0 auto;
+    max-width:600px!important;
+}
+.column table { width:100%;}
+.social .column {
+    width: 280px;
+    min-width: 279px;
+    float:left;
+}
+
+.col-sm-4 {
+    position:relative;
+    min-height:1px;
+}
+
+.col-sm-4 {
+    -ms-flex:0 0 33.333333%;
+    flex:0 0 33.333333%;
+    max-width:33.333333%;
+}
+
+.col-sm-4 {float:left}
+
+.col-sm-4{width:33.33333333%}
+
+.center-column {
+    height: 468px;
+}
+
+.right-column {
+    float: right;
+}
+
+.row {
+    margin-right:-15px;
+    margin-left:-15px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: 3px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button-1 {border-radius: 50%;}
+
+.button-2 {border-radius: 25px;}
+
+.row:after {display:table;content:" "}
+
+.row:before{display:table;content:" "}
+
+.row:after{clear:both}
+
+/* Be sure to place a .clear element after each set of columns, just to be safe */
+.clear { display: block; clear: both; }
+
+
+/* -------------------------------------------
+        PHONE
+        For clients that support media queries.
+        Nothing fancy.
+-------------------------------------------- */
+@media only screen and (max-width: 600px) {
+
+    a[class="btn"] { display:block!important; margin-bottom:10px!important; background-image:none!important; margin-right:0!important;}
+
+    div[class="column"] { width: auto!important; float:none!important;}
+
+    table.social div[class="column"] {
+        width:auto!important;
+    }
+
+    .mobile-buttons {
+        margin: auto;
+      position: relative;
+      text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+
+    }
+
+}
+
+@media only screen and (min-width: 601px) {
+
+        .desktop-button1 {
+            float: left;
+        }
+
+}
+
+</style>
+
+</head>
+
+<body >
+
+            <div class="content" style="background-color: white;">
+            <table>
+                <tr>
+                    <td>
+
+                        <img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/Header.png">
+                        <p class="lead"></p>
+
+
+
+
+<style>
+    /* 3 equal-width columns Layout Pattern CSS */
+    @media only screen and (max-width: 599px) {
+        td[class="pattern"] table { width: 100%; }
+        td[class="pattern"] .col{
+            width: 33%;
+        }
+    }
+    @media only screen and (max-width: 500px) {
+        td[class="pattern"] .col{
+            width: 100%;
+            display: block;
+        }
+        td[class="pattern"] .col-left,
+        td[class="pattern"] .col-mid {
+            margin-bottom: 20px;
+        }
+    }
+</style>
+
+<div style="padding-right: 10px;" class="desktop-button1 mobile-buttons">
+
+<a href="https://www.planetrent.co.uk/" target="_blank"><button class="button-1 button" ><strong>SIGN UP<br> FOR <br> FREE </strong></button></a>
+
+</div>
+
+<p style="padding-bottom: 5px; font-size: 20px;"> Still managing your properties using spreadsheets or manually? No way to track offers and tenancies in real time? Then you need Planet Rent, the end to end application that lets you manage your all properties in one place.</p>
+
+<table cellpadding="0" cellspacing="0">
+    <tr>
+        <td class="pattern" width="600" align="center">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="col col-left" width="200" align="left" valign="top">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="left">
+                                    <table cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="left">
+
+                                                                                            <div style="padding-top: 10px; padding-bottom: 10px;">
+                                                                                            <ul>
+                                                                                                <p style="font-size: 20px;"><strong>PlanetRent allows you to:</strong></p>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px;">See all your properties in one place </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Manage the lettings process from offer through to move in </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Automate the viewing process </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Agree to an offer and create a new tenancy agreement in minutes</li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Electronically sign documents on your phone </li>
+                                                                                                <li style="font-size: 20px">Collect rents by direct debit </li>
+                                                                                            </ul>
+                                                                                            </div>
+
+                                                                                            <p style="font-size: 20px;">Planet Rent is built by Ringley, the multi-award winning property Management Company, with over twenty years of industry expertise.</p>
+                                            </td>
+                                        </tr>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="col col-mid" width="200" align="center" valign="top">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="left">
+                                    <table cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="center">
+                                                                                                <div style="height: 80%; width: 80%;">
+                                                <img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/New+Tracker.jpg">
+                                                                                            </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+                        <div class="col-sm-12" style="padding-top: 10px;">
+
+                    <h1 align="center"><strong>Start saving time and money NOW by clicking below!</strong></h1>
+                            <div align="center" style="padding-bottom: 15px;">
+
+                      <a href="https://www.planetrent.co.uk/" target="_blank"><button type="button" class="button button-2"><strong>REGISTER TODAY <br> FOR FREE</strong></button></a>
+
+                            </div>
+
+                    <div style="padding-bottom: 10px;" align="center">
+
+                    <a href="https://en-gb.facebook.com/TheRingleyGroup/"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/facebook-logo-button.png" style="padding-right: 30px;"></a>
+                    <a href="https://uk.linkedin.com/company/the-ringley-group?trk=ppro_cprof"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/linkedin.png" style="padding-right: 30px;"></a>
+                    <a href="https://twitter.com/TheRingleyGroup"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/twitter-logo-button.png"></a>
+
+                  </div>
+
+                  </div>
+
+</body>
+</html>
+
+----==_mimepart_5ae35b9a1ce44_518bc819646894--
+
+  Rendering email_mailer/weekly.html.erb
+  Rendered email_mailer/weekly.html.erb (0.8ms)
+  Rendering email_mailer/weekly.text.erb
+  Rendered email_mailer/weekly.text.erb (0.2ms)
+EmailMailer#weekly: processed outbound mail in 269.9ms
+Sent mail to robsonpeacock10@gmail.com (517.6ms)
+Date: Fri, 27 Apr 2018 20:20:57 +0100
+From: robsonpeacock10@gmail.com
+To: robsonpeacock10@gmail.com
+Message-ID: <5ae37819a2df3_57888ff96c47854@robson-VirtualBox.mail>
+Subject: Planet Rent email
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5ae37819a180d_57888ff96c4779d";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5ae37819a180d_57888ff96c4779d
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+EmailMailer#weekly
+
+, find me in
+app/views/my_mailer/mailer.text.erb
+
+----==_mimepart_5ae37819a180d_57888ff96c4779d
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- If you delete this tag, the sky will fall on your head -->
+<meta name="viewport" content="width=device-width" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>ZURBemails</title>
+
+<style>
+
+/* -------------------------------------
+        GLOBAL
+------------------------------------- */
+* {
+    margin:0;
+    padding:0;
+}
+* { font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+
+img {
+    max-width: 100%;
+}
+.collapse {
+    margin:0;
+    padding:0;
+}
+body {
+    -webkit-font-smoothing:antialiased;
+    -webkit-text-size-adjust:none;
+    width: 100%!important;
+    height: 100%;
+    background-color: #a1acb9;
+}
+button:hover {
+    background-color: #3393ff;
+}
+
+
+/* -------------------------------------
+        ELEMENTS
+------------------------------------- */
+a { color: #2BA6CB;}
+
+.btn {
+    text-decoration:none;
+    color: #FFF;
+    background-color: #666;
+    padding:10px 16px;
+    font-weight:bold;
+    margin-right:10px;
+    text-align:center;
+    cursor:pointer;
+    display: inline-block;
+}
+
+p.callout {
+    padding:15px;
+    background-color:#ECF8FF;
+    margin-bottom: 15px;
+}
+.callout a {
+    font-weight:bold;
+    color: #2BA6CB;
+}
+
+table.social {
+/*     padding:15px; */
+    background-color: #ebebeb;
+
+}
+.social .soc-btn {
+    padding: 3px 7px;
+    font-size:12px;
+    margin-bottom:10px;
+    text-decoration:none;
+    color: #FFF;font-weight:bold;
+    display:block;
+    text-align:center;
+}
+a.fb { background-color: #3B5998!important; }
+a.tw { background-color: #1daced!important; }
+a.gp { background-color: #DB4A39!important; }
+a.ms { background-color: #000!important; }
+
+.sidebar .soc-btn {
+    display:block;
+    width:100%;
+}
+
+/* -------------------------------------
+        HEADER
+------------------------------------- */
+table.head-wrap { width: 100%;}
+
+.header.container table td.logo { padding: 15px; }
+.header.container table td.label { padding: 15px; padding-left:0px;}
+
+
+/* -------------------------------------
+        BODY
+------------------------------------- */
+table.body-wrap { width: 100%;}
+
+
+/* -------------------------------------
+        FOOTER
+------------------------------------- */
+table.footer-wrap { width: 100%;    clear:both!important;
+}
+.footer-wrap .container td.content  p { border-top: 1px solid rgb(215,215,215); padding-top:15px;}
+.footer-wrap .container td.content p {
+    font-size:10px;
+    font-weight: bold;
+
+}
+
+
+/* -------------------------------------
+        TYPOGRAPHY
+------------------------------------- */
+h1,h2,h3,h4,h5,h6 {
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; line-height: 1.1; margin-bottom:15px; color:#000;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; }
+
+h1 { font-weight:200; font-size: 44px;}
+h2 { font-weight:200; font-size: 37px;}
+h3 { font-weight:500; font-size: 27px;}
+h4 { font-weight:500; font-size: 23px;}
+h5 { font-weight:900; font-size: 17px;}
+h6 { font-weight:900; font-size: 14px; text-transform: uppercase; color:#444;}
+
+.collapse { margin:0!important;}
+
+p, ul {
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size:14px;
+    line-height:1.6;
+}
+p.lead { font-size:17px; }
+p.last { margin-bottom:0px;}
+
+ul li {
+    margin-left:5px;
+    list-style-position: inside;
+}
+
+/* -------------------------------------
+        SIDEBAR
+------------------------------------- */
+ul.sidebar {
+    background:#ebebeb;
+    display:block;
+    list-style-type: none;
+}
+ul.sidebar li { display: block; margin:0;}
+ul.sidebar li a {
+    text-decoration:none;
+    color: #666;
+    padding:10px 16px;
+/*     font-weight:bold; */
+    margin-right:10px;
+/*     text-align:center; */
+    cursor:pointer;
+    border-bottom: 1px solid #777777;
+    border-top: 1px solid #FFFFFF;
+    display:block;
+    margin:0;
+}
+ul.sidebar li a.last { border-bottom-width:0px;}
+ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.sidebar li a h5,ul.sidebar li a h6,ul.sidebar li a p { margin-bottom:0!important;}
+
+
+
+/* ---------------------------------------------------
+        RESPONSIVENESS
+        Nuke it from orbit. It's the only way to be sure.
+------------------------------------------------------ */
+
+/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+.container {
+    display:block!important;
+    max-width:600px!important;
+    margin:0 auto!important; /* makes it centered */
+    clear:both!important;
+}
+
+/* This should also be a block element, so that it will fill 100% of the .container */
+.content {
+    padding:15px;
+    max-width:800px;
+    margin:0 auto;
+    display:block;
+}
+
+/* Let's make sure tables in the content area are 100% wide */
+.content table { width: 100%; }
+
+
+/* Odds and ends */
+.column {
+    width: 300px;
+    float:left;
+}
+.column tr td { padding: 15px; }
+.column-wrap {
+    padding:0!important;
+    margin:0 auto;
+    max-width:600px!important;
+}
+.column table { width:100%;}
+.social .column {
+    width: 280px;
+    min-width: 279px;
+    float:left;
+}
+
+.col-sm-4 {
+    position:relative;
+    min-height:1px;
+}
+
+.col-sm-4 {
+    -ms-flex:0 0 33.333333%;
+    flex:0 0 33.333333%;
+    max-width:33.333333%;
+}
+
+.col-sm-4 {float:left}
+
+.col-sm-4{width:33.33333333%}
+
+.center-column {
+    height: 468px;
+}
+
+.right-column {
+    float: right;
+}
+
+.row {
+    margin-right:-15px;
+    margin-left:-15px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: 3px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button-1 {border-radius: 50%;}
+
+.button-2 {border-radius: 25px;}
+
+.row:after {display:table;content:" "}
+
+.row:before{display:table;content:" "}
+
+.row:after{clear:both}
+
+/* Be sure to place a .clear element after each set of columns, just to be safe */
+.clear { display: block; clear: both; }
+
+
+/* -------------------------------------------
+        PHONE
+        For clients that support media queries.
+        Nothing fancy.
+-------------------------------------------- */
+@media only screen and (max-width: 600px) {
+
+    a[class="btn"] { display:block!important; margin-bottom:10px!important; background-image:none!important; margin-right:0!important;}
+
+    div[class="column"] { width: auto!important; float:none!important;}
+
+    table.social div[class="column"] {
+        width:auto!important;
+    }
+
+    .mobile-buttons {
+        margin: auto;
+      position: relative;
+      text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+
+    }
+
+}
+
+@media only screen and (min-width: 601px) {
+
+        .desktop-button1 {
+            float: left;
+        }
+
+}
+
+</style>
+
+</head>
+
+<body >
+
+            <div class="content" style="background-color: white;">
+            <table>
+                <tr>
+                    <td>
+
+                        <img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/Header.png">
+                        <p class="lead"></p>
+
+
+
+
+<style>
+    /* 3 equal-width columns Layout Pattern CSS */
+    @media only screen and (max-width: 599px) {
+        td[class="pattern"] table { width: 100%; }
+        td[class="pattern"] .col{
+            width: 33%;
+        }
+    }
+    @media only screen and (max-width: 500px) {
+        td[class="pattern"] .col{
+            width: 100%;
+            display: block;
+        }
+        td[class="pattern"] .col-left,
+        td[class="pattern"] .col-mid {
+            margin-bottom: 20px;
+        }
+    }
+</style>
+
+<div style="padding-right: 10px;" class="desktop-button1 mobile-buttons">
+
+<a href="https://www.planetrent.co.uk/" target="_blank"><button class="button-1 button" ><strong>SIGN UP<br> FOR <br> FREE </strong></button></a>
+
+</div>
+
+<p style="padding-bottom: 5px; font-size: 20px;"> Still managing your properties using spreadsheets or manually? No way to track offers and tenancies in real time? Then you need Planet Rent, the end to end application that lets you manage your all properties in one place.</p>
+
+<table cellpadding="0" cellspacing="0">
+    <tr>
+        <td class="pattern" width="600" align="center">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="col col-left" width="200" align="left" valign="top">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="left">
+                                    <table cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="left">
+
+                                                                                            <div style="padding-top: 10px; padding-bottom: 10px;">
+                                                                                            <ul>
+                                                                                                <p style="font-size: 20px;"><strong>PlanetRent allows you to:</strong></p>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px;">See all your properties in one place </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Manage the lettings process from offer through to move in </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Automate the viewing process </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Agree to an offer and create a new tenancy agreement in minutes</li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Electronically sign documents on your phone </li>
+                                                                                                <li style="font-size: 20px">Collect rents by direct debit </li>
+                                                                                            </ul>
+                                                                                            </div>
+
+                                                                                            <p style="font-size: 20px;">Planet Rent is built by Ringley, the multi-award winning property Management Company, with over twenty years of industry expertise.</p>
+                                            </td>
+                                        </tr>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="col col-mid" width="200" align="center" valign="top">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="left">
+                                    <table cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="center">
+                                                                                                <div style="height: 80%; width: 80%;">
+                                                <img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/New+Tracker.jpg">
+                                                                                            </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+                        <div class="col-sm-12" style="padding-top: 10px;">
+
+                    <h1 align="center"><strong>Start saving time and money NOW by clicking below!</strong></h1>
+                            <div align="center" style="padding-bottom: 15px;">
+
+                      <a href="https://www.planetrent.co.uk/" target="_blank"><button type="button" class="button button-2"><strong>REGISTER TODAY <br> FOR FREE</strong></button></a>
+
+                            </div>
+
+                    <div style="padding-bottom: 10px;" align="center">
+
+                    <a href="https://en-gb.facebook.com/TheRingleyGroup/"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/facebook-logo-button.png" style="padding-right: 30px;"></a>
+                    <a href="https://uk.linkedin.com/company/the-ringley-group?trk=ppro_cprof"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/linkedin.png" style="padding-right: 30px;"></a>
+                    <a href="https://twitter.com/TheRingleyGroup"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/twitter-logo-button.png"></a>
+
+                  </div>
+
+                  </div>
+
+</body>
+</html>
+
+----==_mimepart_5ae37819a180d_57888ff96c4779d--
+
+  Rendering email_mailer/weekly.html.erb
+  Rendered email_mailer/weekly.html.erb (0.0ms)
+  Rendering email_mailer/weekly.text.erb
+  Rendered email_mailer/weekly.text.erb (0.0ms)
+EmailMailer#weekly: processed outbound mail in 15.2ms
+Sent mail to robsonpeacock10@gmail.com (1746.5ms)
+Date: Fri, 27 Apr 2018 20:22:07 +0100
+From: robsonpeacock10@gmail.com
+To: robsonpeacock10@gmail.com
+Message-ID: <5ae3785f40684_57888ff96c480d3@robson-VirtualBox.mail>
+Subject: Planet Rent email
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5ae3785f3d17f_57888ff96c47928";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5ae3785f3d17f_57888ff96c47928
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+EmailMailer#weekly
+
+, find me in
+app/views/my_mailer/mailer.text.erb
+
+----==_mimepart_5ae3785f3d17f_57888ff96c47928
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- If you delete this tag, the sky will fall on your head -->
+<meta name="viewport" content="width=device-width" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>ZURBemails</title>
+
+<style>
+
+/* -------------------------------------
+        GLOBAL
+------------------------------------- */
+* {
+    margin:0;
+    padding:0;
+}
+* { font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+
+img {
+    max-width: 100%;
+}
+.collapse {
+    margin:0;
+    padding:0;
+}
+body {
+    -webkit-font-smoothing:antialiased;
+    -webkit-text-size-adjust:none;
+    width: 100%!important;
+    height: 100%;
+    background-color: #a1acb9;
+}
+button:hover {
+    background-color: #3393ff;
+}
+
+
+/* -------------------------------------
+        ELEMENTS
+------------------------------------- */
+a { color: #2BA6CB;}
+
+.btn {
+    text-decoration:none;
+    color: #FFF;
+    background-color: #666;
+    padding:10px 16px;
+    font-weight:bold;
+    margin-right:10px;
+    text-align:center;
+    cursor:pointer;
+    display: inline-block;
+}
+
+p.callout {
+    padding:15px;
+    background-color:#ECF8FF;
+    margin-bottom: 15px;
+}
+.callout a {
+    font-weight:bold;
+    color: #2BA6CB;
+}
+
+table.social {
+/*     padding:15px; */
+    background-color: #ebebeb;
+
+}
+.social .soc-btn {
+    padding: 3px 7px;
+    font-size:12px;
+    margin-bottom:10px;
+    text-decoration:none;
+    color: #FFF;font-weight:bold;
+    display:block;
+    text-align:center;
+}
+a.fb { background-color: #3B5998!important; }
+a.tw { background-color: #1daced!important; }
+a.gp { background-color: #DB4A39!important; }
+a.ms { background-color: #000!important; }
+
+.sidebar .soc-btn {
+    display:block;
+    width:100%;
+}
+
+/* -------------------------------------
+        HEADER
+------------------------------------- */
+table.head-wrap { width: 100%;}
+
+.header.container table td.logo { padding: 15px; }
+.header.container table td.label { padding: 15px; padding-left:0px;}
+
+
+/* -------------------------------------
+        BODY
+------------------------------------- */
+table.body-wrap { width: 100%;}
+
+
+/* -------------------------------------
+        FOOTER
+------------------------------------- */
+table.footer-wrap { width: 100%;    clear:both!important;
+}
+.footer-wrap .container td.content  p { border-top: 1px solid rgb(215,215,215); padding-top:15px;}
+.footer-wrap .container td.content p {
+    font-size:10px;
+    font-weight: bold;
+
+}
+
+
+/* -------------------------------------
+        TYPOGRAPHY
+------------------------------------- */
+h1,h2,h3,h4,h5,h6 {
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; line-height: 1.1; margin-bottom:15px; color:#000;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; }
+
+h1 { font-weight:200; font-size: 44px;}
+h2 { font-weight:200; font-size: 37px;}
+h3 { font-weight:500; font-size: 27px;}
+h4 { font-weight:500; font-size: 23px;}
+h5 { font-weight:900; font-size: 17px;}
+h6 { font-weight:900; font-size: 14px; text-transform: uppercase; color:#444;}
+
+.collapse { margin:0!important;}
+
+p, ul {
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size:14px;
+    line-height:1.6;
+}
+p.lead { font-size:17px; }
+p.last { margin-bottom:0px;}
+
+ul li {
+    margin-left:5px;
+    list-style-position: inside;
+}
+
+/* -------------------------------------
+        SIDEBAR
+------------------------------------- */
+ul.sidebar {
+    background:#ebebeb;
+    display:block;
+    list-style-type: none;
+}
+ul.sidebar li { display: block; margin:0;}
+ul.sidebar li a {
+    text-decoration:none;
+    color: #666;
+    padding:10px 16px;
+/*     font-weight:bold; */
+    margin-right:10px;
+/*     text-align:center; */
+    cursor:pointer;
+    border-bottom: 1px solid #777777;
+    border-top: 1px solid #FFFFFF;
+    display:block;
+    margin:0;
+}
+ul.sidebar li a.last { border-bottom-width:0px;}
+ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.sidebar li a h5,ul.sidebar li a h6,ul.sidebar li a p { margin-bottom:0!important;}
+
+
+
+/* ---------------------------------------------------
+        RESPONSIVENESS
+        Nuke it from orbit. It's the only way to be sure.
+------------------------------------------------------ */
+
+/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+.container {
+    display:block!important;
+    max-width:600px!important;
+    margin:0 auto!important; /* makes it centered */
+    clear:both!important;
+}
+
+/* This should also be a block element, so that it will fill 100% of the .container */
+.content {
+    padding:15px;
+    max-width:800px;
+    margin:0 auto;
+    display:block;
+}
+
+/* Let's make sure tables in the content area are 100% wide */
+.content table { width: 100%; }
+
+
+/* Odds and ends */
+.column {
+    width: 300px;
+    float:left;
+}
+.column tr td { padding: 15px; }
+.column-wrap {
+    padding:0!important;
+    margin:0 auto;
+    max-width:600px!important;
+}
+.column table { width:100%;}
+.social .column {
+    width: 280px;
+    min-width: 279px;
+    float:left;
+}
+
+.col-sm-4 {
+    position:relative;
+    min-height:1px;
+}
+
+.col-sm-4 {
+    -ms-flex:0 0 33.333333%;
+    flex:0 0 33.333333%;
+    max-width:33.333333%;
+}
+
+.col-sm-4 {float:left}
+
+.col-sm-4{width:33.33333333%}
+
+.center-column {
+    height: 468px;
+}
+
+.right-column {
+    float: right;
+}
+
+.row {
+    margin-right:-15px;
+    margin-left:-15px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: 3px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button-1 {border-radius: 50%;}
+
+.button-2 {border-radius: 25px;}
+
+.row:after {display:table;content:" "}
+
+.row:before{display:table;content:" "}
+
+.row:after{clear:both}
+
+/* Be sure to place a .clear element after each set of columns, just to be safe */
+.clear { display: block; clear: both; }
+
+
+/* -------------------------------------------
+        PHONE
+        For clients that support media queries.
+        Nothing fancy.
+-------------------------------------------- */
+@media only screen and (max-width: 600px) {
+
+    a[class="btn"] { display:block!important; margin-bottom:10px!important; background-image:none!important; margin-right:0!important;}
+
+    div[class="column"] { width: auto!important; float:none!important;}
+
+    table.social div[class="column"] {
+        width:auto!important;
+    }
+
+    .mobile-buttons {
+        margin: auto;
+      position: relative;
+      text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+
+    }
+
+}
+
+@media only screen and (min-width: 601px) {
+
+        .desktop-button1 {
+            float: left;
+        }
+
+}
+
+</style>
+
+</head>
+
+<body >
+
+            <div class="content" style="background-color: white;">
+            <table>
+                <tr>
+                    <td>
+
+                        <img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/Header.png">
+                        <p class="lead"></p>
+
+
+
+
+<style>
+    /* 3 equal-width columns Layout Pattern CSS */
+    @media only screen and (max-width: 599px) {
+        td[class="pattern"] table { width: 100%; }
+        td[class="pattern"] .col{
+            width: 33%;
+        }
+    }
+    @media only screen and (max-width: 500px) {
+        td[class="pattern"] .col{
+            width: 100%;
+            display: block;
+        }
+        td[class="pattern"] .col-left,
+        td[class="pattern"] .col-mid {
+            margin-bottom: 20px;
+        }
+    }
+</style>
+
+<div style="padding-right: 10px;" class="desktop-button1 mobile-buttons">
+
+<a href="https://www.planetrent.co.uk/" target="_blank"><button class="button-1 button" ><strong>SIGN UP<br> FOR <br> FREE </strong></button></a>
+
+</div>
+
+<p style="padding-bottom: 5px; font-size: 20px;"> Still managing your properties using spreadsheets or manually? No way to track offers and tenancies in real time? Then you need Planet Rent, the end to end application that lets you manage your all properties in one place.</p>
+
+<table cellpadding="0" cellspacing="0">
+    <tr>
+        <td class="pattern" width="600" align="center">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="col col-left" width="200" align="left" valign="top">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="left">
+                                    <table cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="left">
+
+                                                                                            <div style="padding-top: 10px; padding-bottom: 10px;">
+                                                                                            <ul>
+                                                                                                <p style="font-size: 20px;"><strong>PlanetRent allows you to:</strong></p>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px;">See all your properties in one place </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Manage the lettings process from offer through to move in </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Automate the viewing process </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Agree to an offer and create a new tenancy agreement in minutes</li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Electronically sign documents on your phone </li>
+                                                                                                <li style="font-size: 20px">Collect rents by direct debit </li>
+                                                                                            </ul>
+                                                                                            </div>
+
+                                                                                            <p style="font-size: 20px;">Planet Rent is built by Ringley, the multi-award winning property Management Company, with over twenty years of industry expertise.</p>
+                                            </td>
+                                        </tr>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="col col-mid" width="200" align="center" valign="top">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="left">
+                                    <table cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="center">
+                                                                                                <div style="height: 80%; width: 80%;">
+                                                <img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/New+Tracker.jpg">
+                                                                                            </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+                        <div class="col-sm-12" style="padding-top: 10px;">
+
+                    <h1 align="center"><strong>Start saving time and money NOW by clicking below!</strong></h1>
+                            <div align="center" style="padding-bottom: 15px;">
+
+                      <a href="https://www.planetrent.co.uk/" target="_blank"><button type="button" class="button button-2"><strong>REGISTER TODAY <br> FOR FREE</strong></button></a>
+
+                            </div>
+
+                    <div style="padding-bottom: 10px;" align="center">
+
+                    <a href="https://en-gb.facebook.com/TheRingleyGroup/"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/facebook-logo-button.png" style="padding-right: 30px;"></a>
+                    <a href="https://uk.linkedin.com/company/the-ringley-group?trk=ppro_cprof"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/linkedin.png" style="padding-right: 30px;"></a>
+                    <a href="https://twitter.com/TheRingleyGroup"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/twitter-logo-button.png"></a>
+
+                  </div>
+
+                  </div>
+
+</body>
+</html>
+
+----==_mimepart_5ae3785f3d17f_57888ff96c47928--
+
+  Rendering email_mailer/weekly.html.erb
+  Rendered email_mailer/weekly.html.erb (0.1ms)
+  Rendering email_mailer/weekly.text.erb
+  Rendered email_mailer/weekly.text.erb (0.0ms)
+EmailMailer#weekly: processed outbound mail in 13.0ms
+Sent mail to robsonpeacock10@gmail.com (1194.5ms)
+Date: Fri, 27 Apr 2018 20:23:19 +0100
+From: robsonpeacock10@gmail.com
+To: robsonpeacock10@gmail.com
+Message-ID: <5ae378a761e06_57888ff96c482c0@robson-VirtualBox.mail>
+Subject: Planet Rent email
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5ae378a760ad4_57888ff96c4815a";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5ae378a760ad4_57888ff96c4815a
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+EmailMailer#weekly
+
+, find me in
+app/views/my_mailer/mailer.text.erb
+
+----==_mimepart_5ae378a760ad4_57888ff96c4815a
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- If you delete this tag, the sky will fall on your head -->
+<meta name="viewport" content="width=device-width" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>ZURBemails</title>
+
+<style>
+
+/* -------------------------------------
+        GLOBAL
+------------------------------------- */
+* {
+    margin:0;
+    padding:0;
+}
+* { font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+
+img {
+    max-width: 100%;
+}
+.collapse {
+    margin:0;
+    padding:0;
+}
+body {
+    -webkit-font-smoothing:antialiased;
+    -webkit-text-size-adjust:none;
+    width: 100%!important;
+    height: 100%;
+    background-color: #a1acb9;
+}
+button:hover {
+    background-color: #3393ff;
+}
+
+
+/* -------------------------------------
+        ELEMENTS
+------------------------------------- */
+a { color: #2BA6CB;}
+
+.btn {
+    text-decoration:none;
+    color: #FFF;
+    background-color: #666;
+    padding:10px 16px;
+    font-weight:bold;
+    margin-right:10px;
+    text-align:center;
+    cursor:pointer;
+    display: inline-block;
+}
+
+p.callout {
+    padding:15px;
+    background-color:#ECF8FF;
+    margin-bottom: 15px;
+}
+.callout a {
+    font-weight:bold;
+    color: #2BA6CB;
+}
+
+table.social {
+/*     padding:15px; */
+    background-color: #ebebeb;
+
+}
+.social .soc-btn {
+    padding: 3px 7px;
+    font-size:12px;
+    margin-bottom:10px;
+    text-decoration:none;
+    color: #FFF;font-weight:bold;
+    display:block;
+    text-align:center;
+}
+a.fb { background-color: #3B5998!important; }
+a.tw { background-color: #1daced!important; }
+a.gp { background-color: #DB4A39!important; }
+a.ms { background-color: #000!important; }
+
+.sidebar .soc-btn {
+    display:block;
+    width:100%;
+}
+
+/* -------------------------------------
+        HEADER
+------------------------------------- */
+table.head-wrap { width: 100%;}
+
+.header.container table td.logo { padding: 15px; }
+.header.container table td.label { padding: 15px; padding-left:0px;}
+
+
+/* -------------------------------------
+        BODY
+------------------------------------- */
+table.body-wrap { width: 100%;}
+
+
+/* -------------------------------------
+        FOOTER
+------------------------------------- */
+table.footer-wrap { width: 100%;    clear:both!important;
+}
+.footer-wrap .container td.content  p { border-top: 1px solid rgb(215,215,215); padding-top:15px;}
+.footer-wrap .container td.content p {
+    font-size:10px;
+    font-weight: bold;
+
+}
+
+
+/* -------------------------------------
+        TYPOGRAPHY
+------------------------------------- */
+h1,h2,h3,h4,h5,h6 {
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; line-height: 1.1; margin-bottom:15px; color:#000;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; }
+
+h1 { font-weight:200; font-size: 44px;}
+h2 { font-weight:200; font-size: 37px;}
+h3 { font-weight:500; font-size: 27px;}
+h4 { font-weight:500; font-size: 23px;}
+h5 { font-weight:900; font-size: 17px;}
+h6 { font-weight:900; font-size: 14px; text-transform: uppercase; color:#444;}
+
+.collapse { margin:0!important;}
+
+p, ul {
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size:14px;
+    line-height:1.6;
+}
+p.lead { font-size:17px; }
+p.last { margin-bottom:0px;}
+
+ul li {
+    margin-left:5px;
+    list-style-position: inside;
+}
+
+/* -------------------------------------
+        SIDEBAR
+------------------------------------- */
+ul.sidebar {
+    background:#ebebeb;
+    display:block;
+    list-style-type: none;
+}
+ul.sidebar li { display: block; margin:0;}
+ul.sidebar li a {
+    text-decoration:none;
+    color: #666;
+    padding:10px 16px;
+/*     font-weight:bold; */
+    margin-right:10px;
+/*     text-align:center; */
+    cursor:pointer;
+    border-bottom: 1px solid #777777;
+    border-top: 1px solid #FFFFFF;
+    display:block;
+    margin:0;
+}
+ul.sidebar li a.last { border-bottom-width:0px;}
+ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.sidebar li a h5,ul.sidebar li a h6,ul.sidebar li a p { margin-bottom:0!important;}
+
+
+
+/* ---------------------------------------------------
+        RESPONSIVENESS
+        Nuke it from orbit. It's the only way to be sure.
+------------------------------------------------------ */
+
+/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+.container {
+    display:block!important;
+    max-width:600px!important;
+    margin:0 auto!important; /* makes it centered */
+    clear:both!important;
+}
+
+/* This should also be a block element, so that it will fill 100% of the .container */
+.content {
+    padding:15px;
+    max-width:800px;
+    margin:0 auto;
+    display:block;
+}
+
+/* Let's make sure tables in the content area are 100% wide */
+.content table { width: 100%; }
+
+
+/* Odds and ends */
+.column {
+    width: 300px;
+    float:left;
+}
+.column tr td { padding: 15px; }
+.column-wrap {
+    padding:0!important;
+    margin:0 auto;
+    max-width:600px!important;
+}
+.column table { width:100%;}
+.social .column {
+    width: 280px;
+    min-width: 279px;
+    float:left;
+}
+
+.col-sm-4 {
+    position:relative;
+    min-height:1px;
+}
+
+.col-sm-4 {
+    -ms-flex:0 0 33.333333%;
+    flex:0 0 33.333333%;
+    max-width:33.333333%;
+}
+
+.col-sm-4 {float:left}
+
+.col-sm-4{width:33.33333333%}
+
+.center-column {
+    height: 468px;
+}
+
+.right-column {
+    float: right;
+}
+
+.row {
+    margin-right:-15px;
+    margin-left:-15px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: 3px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button-1 {border-radius: 50%;}
+
+.button-2 {border-radius: 25px;}
+
+.row:after {display:table;content:" "}
+
+.row:before{display:table;content:" "}
+
+.row:after{clear:both}
+
+/* Be sure to place a .clear element after each set of columns, just to be safe */
+.clear { display: block; clear: both; }
+
+
+/* -------------------------------------------
+        PHONE
+        For clients that support media queries.
+        Nothing fancy.
+-------------------------------------------- */
+@media only screen and (max-width: 600px) {
+
+    a[class="btn"] { display:block!important; margin-bottom:10px!important; background-image:none!important; margin-right:0!important;}
+
+    div[class="column"] { width: auto!important; float:none!important;}
+
+    table.social div[class="column"] {
+        width:auto!important;
+    }
+
+    .mobile-buttons {
+        margin: auto;
+      position: relative;
+      text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+
+    }
+
+}
+
+@media only screen and (min-width: 601px) {
+
+        .desktop-button1 {
+            float: left;
+        }
+
+}
+
+</style>
+
+</head>
+
+<body >
+
+            <div class="content" style="background-color: white;">
+            <table>
+                <tr>
+                    <td>
+
+                        <img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/Header.png">
+                        <p class="lead"></p>
+
+
+
+
+<style>
+    /* 3 equal-width columns Layout Pattern CSS */
+    @media only screen and (max-width: 599px) {
+        td[class="pattern"] table { width: 100%; }
+        td[class="pattern"] .col{
+            width: 33%;
+        }
+    }
+    @media only screen and (max-width: 500px) {
+        td[class="pattern"] .col{
+            width: 100%;
+            display: block;
+        }
+        td[class="pattern"] .col-left,
+        td[class="pattern"] .col-mid {
+            margin-bottom: 20px;
+        }
+    }
+</style>
+
+<div style="padding-right: 10px;" class="desktop-button1 mobile-buttons">
+
+<a href="https://www.planetrent.co.uk/" target="_blank"><button class="button-1 button" ><strong>SIGN UP<br> FOR <br> FREE </strong></button></a>
+
+</div>
+
+<p style="padding-bottom: 5px; font-size: 20px;"> Still managing your properties using spreadsheets or manually? No way to track offers and tenancies in real time? Then you need Planet Rent, the end to end application that lets you manage your all properties in one place.</p>
+
+<table cellpadding="0" cellspacing="0">
+    <tr>
+        <td class="pattern" width="600" align="center">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="col col-left" width="200" align="left" valign="top">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="left">
+                                    <table cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="left">
+
+                                                                                            <div style="padding-top: 10px; padding-bottom: 10px;">
+                                                                                            <ul>
+                                                                                                <p style="font-size: 20px;"><strong>PlanetRent allows you to:</strong></p>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px;">See all your properties in one place </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Manage the lettings process from offer through to move in </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Automate the viewing process </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Agree to an offer and create a new tenancy agreement in minutes</li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Electronically sign documents on your phone </li>
+                                                                                                <li style="font-size: 20px">Collect rents by direct debit </li>
+                                                                                            </ul>
+                                                                                            </div>
+
+                                                                                            <p style="font-size: 20px;">Planet Rent is built by Ringley, the multi-award winning property Management Company, with over twenty years of industry expertise.</p>
+                                            </td>
+                                        </tr>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="col col-mid" width="200" align="center" valign="top">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="left">
+                                    <table cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="center">
+                                                                                                <div style="height: 80%; width: 80%;">
+                                                <img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/New+Tracker.jpg">
+                                                                                            </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+                        <div class="col-sm-12" style="padding-top: 10px;">
+
+                    <h1 align="center"><strong>Start saving time and money NOW by clicking below!</strong></h1>
+                            <div align="center" style="padding-bottom: 15px;">
+
+                      <a href="https://www.planetrent.co.uk/" target="_blank"><button type="button" class="button button-2"><strong>REGISTER TODAY <br> FOR FREE</strong></button></a>
+
+                            </div>
+
+                    <div style="padding-bottom: 10px;" align="center">
+
+                    <a href="https://en-gb.facebook.com/TheRingleyGroup/"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/facebook-logo-button.png" style="padding-right: 30px;"></a>
+                    <a href="https://uk.linkedin.com/company/the-ringley-group?trk=ppro_cprof"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/linkedin.png" style="padding-right: 30px;"></a>
+                    <a href="https://twitter.com/TheRingleyGroup"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/twitter-logo-button.png"></a>
+
+                  </div>
+
+                  </div>
+
+</body>
+</html>
+
+----==_mimepart_5ae378a760ad4_57888ff96c4815a--
+
+  Rendering email_mailer/weekly.html.erb
+  Rendered email_mailer/weekly.html.erb (0.1ms)
+  Rendering email_mailer/weekly.text.erb
+  Rendered email_mailer/weekly.text.erb (0.0ms)
+EmailMailer#weekly: processed outbound mail in 10.3ms
+Sent mail to robson_peacock20@outlook.com (1218.5ms)
+Date: Fri, 27 Apr 2018 20:28:58 +0100
+From: robsonpeacock10@gmail.com
+To: robson_peacock20@outlook.com
+Message-ID: <5ae379fae7de1_57888ff96c48494@robson-VirtualBox.mail>
+Subject: Planet Rent email
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5ae379fae6228_57888ff96c48381";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5ae379fae6228_57888ff96c48381
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+EmailMailer#weekly
+
+, find me in
+app/views/my_mailer/mailer.text.erb
+
+----==_mimepart_5ae379fae6228_57888ff96c48381
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- If you delete this tag, the sky will fall on your head -->
+<meta name="viewport" content="width=device-width" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>ZURBemails</title>
+
+<style>
+
+/* -------------------------------------
+        GLOBAL
+------------------------------------- */
+* {
+    margin:0;
+    padding:0;
+}
+* { font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+
+img {
+    max-width: 100%;
+}
+.collapse {
+    margin:0;
+    padding:0;
+}
+body {
+    -webkit-font-smoothing:antialiased;
+    -webkit-text-size-adjust:none;
+    width: 100%!important;
+    height: 100%;
+    background-color: #a1acb9;
+}
+button:hover {
+    background-color: #3393ff;
+}
+
+
+/* -------------------------------------
+        ELEMENTS
+------------------------------------- */
+a { color: #2BA6CB;}
+
+.btn {
+    text-decoration:none;
+    color: #FFF;
+    background-color: #666;
+    padding:10px 16px;
+    font-weight:bold;
+    margin-right:10px;
+    text-align:center;
+    cursor:pointer;
+    display: inline-block;
+}
+
+p.callout {
+    padding:15px;
+    background-color:#ECF8FF;
+    margin-bottom: 15px;
+}
+.callout a {
+    font-weight:bold;
+    color: #2BA6CB;
+}
+
+table.social {
+/*     padding:15px; */
+    background-color: #ebebeb;
+
+}
+.social .soc-btn {
+    padding: 3px 7px;
+    font-size:12px;
+    margin-bottom:10px;
+    text-decoration:none;
+    color: #FFF;font-weight:bold;
+    display:block;
+    text-align:center;
+}
+a.fb { background-color: #3B5998!important; }
+a.tw { background-color: #1daced!important; }
+a.gp { background-color: #DB4A39!important; }
+a.ms { background-color: #000!important; }
+
+.sidebar .soc-btn {
+    display:block;
+    width:100%;
+}
+
+/* -------------------------------------
+        HEADER
+------------------------------------- */
+table.head-wrap { width: 100%;}
+
+.header.container table td.logo { padding: 15px; }
+.header.container table td.label { padding: 15px; padding-left:0px;}
+
+
+/* -------------------------------------
+        BODY
+------------------------------------- */
+table.body-wrap { width: 100%;}
+
+
+/* -------------------------------------
+        FOOTER
+------------------------------------- */
+table.footer-wrap { width: 100%;    clear:both!important;
+}
+.footer-wrap .container td.content  p { border-top: 1px solid rgb(215,215,215); padding-top:15px;}
+.footer-wrap .container td.content p {
+    font-size:10px;
+    font-weight: bold;
+
+}
+
+
+/* -------------------------------------
+        TYPOGRAPHY
+------------------------------------- */
+h1,h2,h3,h4,h5,h6 {
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; line-height: 1.1; margin-bottom:15px; color:#000;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; }
+
+h1 { font-weight:200; font-size: 44px;}
+h2 { font-weight:200; font-size: 37px;}
+h3 { font-weight:500; font-size: 27px;}
+h4 { font-weight:500; font-size: 23px;}
+h5 { font-weight:900; font-size: 17px;}
+h6 { font-weight:900; font-size: 14px; text-transform: uppercase; color:#444;}
+
+.collapse { margin:0!important;}
+
+p, ul {
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size:14px;
+    line-height:1.6;
+}
+p.lead { font-size:17px; }
+p.last { margin-bottom:0px;}
+
+ul li {
+    margin-left:5px;
+    list-style-position: inside;
+}
+
+/* -------------------------------------
+        SIDEBAR
+------------------------------------- */
+ul.sidebar {
+    background:#ebebeb;
+    display:block;
+    list-style-type: none;
+}
+ul.sidebar li { display: block; margin:0;}
+ul.sidebar li a {
+    text-decoration:none;
+    color: #666;
+    padding:10px 16px;
+/*     font-weight:bold; */
+    margin-right:10px;
+/*     text-align:center; */
+    cursor:pointer;
+    border-bottom: 1px solid #777777;
+    border-top: 1px solid #FFFFFF;
+    display:block;
+    margin:0;
+}
+ul.sidebar li a.last { border-bottom-width:0px;}
+ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.sidebar li a h5,ul.sidebar li a h6,ul.sidebar li a p { margin-bottom:0!important;}
+
+
+
+/* ---------------------------------------------------
+        RESPONSIVENESS
+        Nuke it from orbit. It's the only way to be sure.
+------------------------------------------------------ */
+
+/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+.container {
+    display:block!important;
+    max-width:600px!important;
+    margin:0 auto!important; /* makes it centered */
+    clear:both!important;
+}
+
+/* This should also be a block element, so that it will fill 100% of the .container */
+.content {
+    padding:15px;
+    max-width:800px;
+    margin:0 auto;
+    display:block;
+}
+
+/* Let's make sure tables in the content area are 100% wide */
+.content table { width: 100%; }
+
+
+/* Odds and ends */
+.column {
+    width: 300px;
+    float:left;
+}
+.column tr td { padding: 15px; }
+.column-wrap {
+    padding:0!important;
+    margin:0 auto;
+    max-width:600px!important;
+}
+.column table { width:100%;}
+.social .column {
+    width: 280px;
+    min-width: 279px;
+    float:left;
+}
+
+.col-sm-4 {
+    position:relative;
+    min-height:1px;
+}
+
+.col-sm-4 {
+    -ms-flex:0 0 33.333333%;
+    flex:0 0 33.333333%;
+    max-width:33.333333%;
+}
+
+.col-sm-4 {float:left}
+
+.col-sm-4{width:33.33333333%}
+
+.center-column {
+    height: 468px;
+}
+
+.right-column {
+    float: right;
+}
+
+.row {
+    margin-right:-15px;
+    margin-left:-15px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: 3px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button-1 {border-radius: 50%;}
+
+.button-2 {border-radius: 25px;}
+
+.row:after {display:table;content:" "}
+
+.row:before{display:table;content:" "}
+
+.row:after{clear:both}
+
+/* Be sure to place a .clear element after each set of columns, just to be safe */
+.clear { display: block; clear: both; }
+
+
+/* -------------------------------------------
+        PHONE
+        For clients that support media queries.
+        Nothing fancy.
+-------------------------------------------- */
+@media only screen and (max-width: 600px) {
+
+    a[class="btn"] { display:block!important; margin-bottom:10px!important; background-image:none!important; margin-right:0!important;}
+
+    div[class="column"] { width: auto!important; float:none!important;}
+
+    table.social div[class="column"] {
+        width:auto!important;
+    }
+
+    .mobile-buttons {
+        margin: auto;
+      position: relative;
+      text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+
+    }
+
+}
+
+@media only screen and (min-width: 601px) {
+
+        .desktop-button1 {
+            float: left;
+        }
+
+}
+
+</style>
+
+</head>
+
+<body >
+
+            <div class="content" style="background-color: white;">
+            <table>
+                <tr>
+                    <td>
+
+                        <img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/Header.png">
+                        <p class="lead"></p>
+
+
+
+
+<style>
+    /* 3 equal-width columns Layout Pattern CSS */
+    @media only screen and (max-width: 599px) {
+        td[class="pattern"] table { width: 100%; }
+        td[class="pattern"] .col{
+            width: 33%;
+        }
+    }
+    @media only screen and (max-width: 500px) {
+        td[class="pattern"] .col{
+            width: 100%;
+            display: block;
+        }
+        td[class="pattern"] .col-left,
+        td[class="pattern"] .col-mid {
+            margin-bottom: 20px;
+        }
+    }
+</style>
+
+<div style="padding-right: 10px;" class="desktop-button1 mobile-buttons">
+
+<a href="https://www.planetrent.co.uk/" target="_blank"><button class="button-1 button" ><strong>SIGN UP<br> FOR <br> FREE </strong></button></a>
+
+</div>
+
+<p style="padding-bottom: 5px; font-size: 20px;"> Still managing your properties using spreadsheets or manually? No way to track offers and tenancies in real time? Then you need Planet Rent, the end to end application that lets you manage your all properties in one place.</p>
+
+<table cellpadding="0" cellspacing="0">
+    <tr>
+        <td class="pattern" width="600" align="center">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="col col-left" width="200" align="left" valign="top">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="left">
+                                    <table cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="left">
+
+                                                                                            <div style="padding-top: 10px; padding-bottom: 10px;">
+                                                                                            <ul>
+                                                                                                <p style="font-size: 20px;"><strong>PlanetRent allows you to:</strong></p>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px;">See all your properties in one place </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Manage the lettings process from offer through to move in </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Automate the viewing process </li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Agree to an offer and create a new tenancy agreement in minutes</li>
+                                                                                                <li style="padding-bottom: 10px; font-size: 19px">Electronically sign documents on your phone </li>
+                                                                                                <li style="font-size: 20px">Collect rents by direct debit </li>
+                                                                                            </ul>
+                                                                                            </div>
+
+                                                                                            <p style="font-size: 20px;">Planet Rent is built by Ringley, the multi-award winning property Management Company, with over twenty years of industry expertise.</p>
+                                            </td>
+                                        </tr>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="col col-mid" width="200" align="center" valign="top">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td align="left">
+                                    <table cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="center">
+                                                                                                <div style="height: 80%; width: 80%;">
+                                                <img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/New+Tracker.jpg">
+                                                                                            </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+                        <div class="col-sm-12" style="padding-top: 10px;">
+
+                    <h1 align="center"><strong>Start saving time and money NOW by clicking below!</strong></h1>
+                            <div align="center" style="padding-bottom: 15px;">
+
+                      <a href="https://www.planetrent.co.uk/" target="_blank"><button type="button" class="button button-2"><strong>REGISTER TODAY <br> FOR FREE</strong></button></a>
+
+                            </div>
+
+                    <div style="padding-bottom: 10px;" align="center">
+
+                    <a href="https://en-gb.facebook.com/TheRingleyGroup/"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/facebook-logo-button.png" style="padding-right: 30px;"></a>
+                    <a href="https://uk.linkedin.com/company/the-ringley-group?trk=ppro_cprof"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/linkedin.png" style="padding-right: 30px;"></a>
+                    <a href="https://twitter.com/TheRingleyGroup"><img src="https://s3.amazonaws.com/email_template_images/Planet_Rent/twitter-logo-button.png"></a>
+
+                  </div>
+
+                  </div>
+
+</body>
+</html>
+
+----==_mimepart_5ae379fae6228_57888ff96c48381--
+
